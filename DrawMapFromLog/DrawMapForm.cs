@@ -10,6 +10,7 @@ namespace DrawMapFromLog
 
         private void MainForm_Resize(object sender, EventArgs e)
         {
+            Controls.Clear();
             Invalidate();
         }
     }

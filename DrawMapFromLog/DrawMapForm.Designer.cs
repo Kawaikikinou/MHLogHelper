@@ -8,15 +8,8 @@ namespace DrawMapFromLog
 {
     partial class DrawMapForm
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -46,16 +39,6 @@ namespace DrawMapFromLog
         {
             base.OnPaint(e);
             DrawMapFromFile(e.Graphics);
-        }
-
-        private void DrawSquare(Graphics g, int x, int y, int size)
-        {
-            // Crée un pinceau noir pour dessiner le carré
-            using (Brush brush = new SolidBrush(Color.Black))
-            {
-                // Dessine le carré à la position spécifiée avec la taille spécifiée
-                g.FillRectangle(brush, x, y, size, size);
-            }
         }
 
         private void DrawMapFromFile(Graphics g)
@@ -111,9 +94,11 @@ namespace DrawMapFromLog
 
         private Vector2 _borderToCenterMap;
         private float _dezoom = 1.2f;
+        private ToolTip _toolTip;
 
         private void DrawMap(Graphics g, List<AddingCell> logs)
         {
+            _toolTip = new ToolTip();
             _cellSize = logs.Where(k => k.CellPos.X != 0).Min(k => Math.Abs(k.CellPos.X));
 
             _areaBound = new Vector4(
@@ -129,9 +114,7 @@ namespace DrawMapFromLog
 
             DrawXYAxis(g);
             foreach (var log in logs)
-            {
                 DrawCell(g, new Vector2(log.CellPos.X, log.CellPos.Y), log);
-            }
         }
 
         private Vector2 AdaptCoordinatesToForm(Vector2 pos)
@@ -140,37 +123,25 @@ namespace DrawMapFromLog
         private void DrawCell(Graphics g, Vector2 pos, AddingCell log)
         {
             pos = AdaptCoordinatesToForm(pos);
-            DrawSquare(g, pos);
-            DisplayCellId(g, pos, log.CellId);
+            AddLabelWithToolTip(g, pos.X, pos.Y, log);
         }
 
-        private void DrawSquare(Graphics g, Vector2 pos)
+        private void AddLabelWithToolTip(Graphics g, float x, float y, AddingCell log)
         {
-            using (Brush brush = new SolidBrush(Color.Black))
-            {
-                g.FillRectangle(brush, pos.X, pos.Y, _cellFormSize, _cellFormSize);
-            }
-        }
-
-        private void DisplayCellId(Graphics g, Vector2 pos, int cellId)
-        {
-            if (_cellFormSize <= 0)
-                return;
-
-            using (Font font = new Font("Arial", _cellFormSize / 3))
-            {
-                // Calcule la position pour centrer le texte dans le carré
-                float textX = pos.X + (_cellFormSize - g.MeasureString(cellId.ToString(), font).Width) / 2;
-                float textY = pos.Y + (_cellFormSize - g.MeasureString(cellId.ToString(), font).Height) / 2;
-
-                // Dessine le numéro au centre du carré
-                g.DrawString(cellId.ToString(), font, Brushes.White, textX, textY);
-            }
+            Label label = new Label();
+            label.TextAlign = ContentAlignment.MiddleCenter;
+            label.ForeColor = Color.White;
+            label.BackColor = Color.Black;
+            label.Font = new Font("Arial", _cellFormSize / 3);
+            label.Size = new((int)_cellFormSize, (int)_cellFormSize);
+            label.Location = new((int)x, (int)y);
+            label.Text = log.CellId.ToString();
+            Controls.Add(label);
+            _toolTip.SetToolTip(label, log.CellName + " " + log.CellPos);
         }
 
         private void DrawXYAxis(Graphics g)
         {
-            //Vector2 origin = AdaptCoordinatesToForm(Vector2.Zero);
             Vector2 origin = new Vector2(_offset.Y / _scaleToForm + _borderToCenterMap.X, ClientSize.Height - (_offset.X / _scaleToForm + _borderToCenterMap.Y));
             g.DrawLine(Pens.Red, 0, origin.Y, ClientSize.Width, origin.Y);
             g.DrawLine(Pens.Green, origin.X, 0, origin.X, ClientSize.Height);
