@@ -109,6 +109,9 @@ namespace DrawMapFromLog
         private float _scaleToForm;
         private float _cellFormSize => _cellSize / _scaleToForm - 1;
 
+        private Vector2 _borderToCenterMap;
+        private float _dezoom = 1.2f;
+
         private void DrawMap(Graphics g, List<AddingCell> logs)
         {
             _cellSize = logs.Where(k => k.CellPos.X != 0).Min(k => Math.Abs(k.CellPos.X));
@@ -119,9 +122,10 @@ namespace DrawMapFromLog
                 logs.Max(k => k.CellPos.X),
                 logs.Max(k => k.CellPos.Y));
 
-            _scaleToForm = MathF.Max((_areaWidth + _cellSize) / ClientSize.Height, _areaHeight / ClientSize.Width);
-
+            _scaleToForm = _dezoom * MathF.Max((_areaWidth + _cellSize) / ClientSize.Height, _areaHeight / ClientSize.Width);
+            _borderToCenterMap = new Vector2((ClientSize.Width - _areaHeight/ _scaleToForm) / 2, ((ClientSize.Height - _cellFormSize) - (_areaWidth/ _scaleToForm)) / 2);
             _offset = new Vector2(-MathF.Min(0, _areaBound.X), -MathF.Min(0, _areaBound.Y));
+
 
             DrawXYAxis(g);
             foreach (var log in logs)
@@ -131,7 +135,7 @@ namespace DrawMapFromLog
         }
 
         private Vector2 AdaptCoordinatesToForm(Vector2 pos)
-            => new Vector2((_offset.Y + pos.Y) / _scaleToForm, (ClientSize.Height - _cellFormSize) - ((pos.X+ _offset.X) / _scaleToForm));
+            => new Vector2((_offset.Y + pos.Y) / _scaleToForm + _borderToCenterMap.X, (ClientSize.Height - _cellFormSize) - ((pos.X+ _offset.X) / _scaleToForm + _borderToCenterMap.Y));
 
         private void DrawCell(Graphics g, Vector2 pos, AddingCell log)
         {
@@ -150,7 +154,7 @@ namespace DrawMapFromLog
 
         private void DisplayCellId(Graphics g, Vector2 pos, int cellId)
         {
-            if (_cellFormSize == 0)
+            if (_cellFormSize <= 0)
                 return;
 
             using (Font font = new Font("Arial", _cellFormSize / 3))
@@ -167,7 +171,7 @@ namespace DrawMapFromLog
         private void DrawXYAxis(Graphics g)
         {
             //Vector2 origin = AdaptCoordinatesToForm(Vector2.Zero);
-            Vector2 origin = new Vector2(_offset.Y / _scaleToForm, ClientSize.Height - (_offset.X / _scaleToForm));
+            Vector2 origin = new Vector2(_offset.Y / _scaleToForm + _borderToCenterMap.X, ClientSize.Height - (_offset.X / _scaleToForm + _borderToCenterMap.Y));
             g.DrawLine(Pens.Red, 0, origin.Y, ClientSize.Width, origin.Y);
             g.DrawLine(Pens.Green, origin.X, 0, origin.X, ClientSize.Height);
         }
