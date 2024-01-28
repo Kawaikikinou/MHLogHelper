@@ -1,0 +1,221 @@
+clientOperatingSystem: 1
+streamingSession: false
+consolePlayer: false
+consoleUI: false
+platformType: 8
+
+[2024.01.20 22:16:33.842] [ Info] [PlayerManagerService] Logging in player Player (default@account.mh)
+[2024.01.20 22:16:33.846] [Trace] [FrontendClient] Connected on mux channel 2
+[2024.01.20 22:16:33.898] [ Info] [FrontendServer] Received InitialClientHandshake for GROUPING_MANAGER_FRONTEND on mux channel 2
+[2024.01.20 22:16:38.025] [Debug] [Region] Adding area CH0207TaskmasterArea1Entry, id=1, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:38.746] [Trace] [CellSetRegistry] CellSetRegistry::LoadCellSet(Brooklyn/Taskmaster_A/)
+[2024.01.20 22:16:38.796] [Debug] [Region] Adding area CH0207TaskmasterArea2, id=2, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:38.804] [Debug] [Area] connect (-0.00, 1152.00, 0.00) 2 <> 1
+[2024.01.20 22:16:38.864] [Debug] [Region] Adding area CH0207TaskmasterArea3, id=3, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:38.865] [Debug] [Area] connect (3455.99, 2304.00, 0.00) 3 <> 2
+[2024.01.20 22:16:39.066] [Trace] [CellSetRegistry] CellSetRegistry::LoadCellSet(Brooklyn/Taskmaster_B/)
+[2024.01.20 22:16:39.130] [Debug] [Region] Adding area CH0207TaskmasterArea4, id=4, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:39.130] [Debug] [Area] connect (5759.99, 2304.00, 0.00) 4 <> 3
+[2024.01.20 22:16:39.223] [Debug] [Region] Adding area CH0207TaskmasterArea5BossEntry, id=5, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:39.225] [Debug] [Area] connect (9215.99, 3456.00, 0.00) 5 <> 4
+[2024.01.20 22:16:39.291] [Debug] [Region] Adding area CH0207TaskmasterArea6Boss, id=6, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:39.292] [Debug] [Area] connect (9215.99, 5760.00, 0.00) 6 <> 5
+[2024.01.20 22:16:39.310] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_W_Boss_A.cell, cellid=1, cellpos=(9216.00, 6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=6
+[2024.01.20 22:16:39.317] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_C/Taskmaster_Boss_Entry_A.cell, cellid=2, cellpos=(9216.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=5
+[2024.01.20 22:16:39.326] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.327] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.328] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.329] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.330] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.330] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.331] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.331] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.332] [ Warn] [Generator] Failed to place 'RequiredCells'. CELLS=MHServerEmu.Games.GameData.Prototypes.RequiredCellPrototype
+[2024.01.20 22:16:39.333] [Trace] [Generator] GridAreaGenerator failed after 10 attempts
+region: Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000
+area: CH0207TaskmasterArea4, areaid=4, aabb=[(5760.00, -1152.00, -1152.00), (10368.00, 3456.00, 1152.00)], game=serverGameId=0x30065AC38280000
+[2024.01.20 22:16:39.334] [Error] [Area] Area CH0207TaskmasterArea4, areaid=4, aabb=[(5760.00, -1152.00, -1152.00), (10368.00, 3456.00, 1152.00)], game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 failed to generate
+[2024.01.20 22:16:39.336] [Error] [SequenceStack] Area failed to generate.
+[2024.01.20 22:16:39.338] [Trace] [Region] serverGameId=0x30065AC38280000 - Deallocating area id 6, CH0207TaskmasterArea6Boss, areaid=6, aabb=[(8064.00, 5760.00, -1152.00), (10368.00, 8064.00, 1152.00)], game=serverGameId=0x30065AC38280000
+[2024.01.20 22:16:39.343] [Trace] [RegionManager] Removing cell Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_W_Boss_A.cell, cellid=1, cellpos=(9216.00, 6912.00, 0.00), game=serverGameId=0x30065AC38280000 from region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000
+[2024.01.20 22:16:39.346] [Trace] [Region] serverGameId=0x30065AC38280000 - Deallocating area id 5, CH0207TaskmasterArea5BossEntry, areaid=5, aabb=[(8064.00, 3456.00, -1152.00), (10368.00, 5760.00, 1152.00)], game=serverGameId=0x30065AC38280000
+[2024.01.20 22:16:39.347] [Trace] [RegionManager] Removing cell Resource/Cells/Brooklyn/Taskmaster_C/Taskmaster_Boss_Entry_A.cell, cellid=2, cellpos=(9216.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 from region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000
+[2024.01.20 22:16:39.349] [Trace] [Region] serverGameId=0x30065AC38280000 - Deallocating area id 4, CH0207TaskmasterArea4, areaid=4, aabb=[(5760.00, -1152.00, -1152.00), (10368.00, 3456.00, 1152.00)], game=serverGameId=0x30065AC38280000
+[2024.01.20 22:16:39.848] [Trace] [CellSetRegistry] CellSetRegistry::LoadCellSet(Brooklyn/Taskmaster_B/)
+[2024.01.20 22:16:39.895] [Debug] [Region] Adding area CH0207TaskmasterArea4, id=7, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:39.898] [Debug] [Area] connect (5759.99, 2304.00, 0.00) 7 <> 3
+[2024.01.20 22:16:39.952] [Debug] [Region] Adding area CH0207TaskmasterArea5BossEntry, id=8, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:39.953] [Debug] [Area] connect (6911.99, 5760.00, 0.00) 8 <> 7
+[2024.01.20 22:16:40.019] [Debug] [Region] Adding area CH0207TaskmasterArea6Boss, id=9, areapos = (0.00, 0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.020] [Debug] [Area] connect (6911.99, 8064.00, 0.00) 9 <> 8
+[2024.01.20 22:16:40.022] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_W_Boss_A.cell, cellid=3, cellpos=(6912.00, 9216.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=9
+[2024.01.20 22:16:40.023] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_C/Taskmaster_Boss_Entry_A.cell, cellid=4, cellpos=(6912.00, 6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=8
+[2024.01.20 22:16:40.064] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_ES_A.cell, cellid=6, cellpos=(9216.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=7
+[2024.01.20 22:16:40.066] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_NES_A.cell, cellid=5, cellpos=(6912.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=7
+[2024.01.20 22:16:40.068] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_NEW_A.cell, cellid=7, cellpos=(6912.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=7
+[2024.01.20 22:16:40.069] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_SW_A.cell, cellid=8, cellpos=(9216.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=7
+[2024.01.20 22:16:40.074] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_C/Taskmaster_C_NS_A.cell, cellid=9, cellpos=(4608.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=3
+[2024.01.20 22:16:40.078] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_NES_A.cell, cellid=11, cellpos=(2304.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=2
+[2024.01.20 22:16:40.080] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_NW_A.cell, cellid=12, cellpos=(0.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=2
+[2024.01.20 22:16:40.081] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_NEW_A.cell, cellid=10, cellpos=(0.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=2
+[2024.01.20 22:16:40.082] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_SW_A.cell, cellid=13, cellpos=(2304.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=2
+[2024.01.20 22:16:40.083] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_E_Entry_A.cell, cellid=14, cellpos=(0.00, 0.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=1
+[2024.01.20 22:16:40.094] [Trace] [SpawnMarkerRegistry] Trying to insert Marker out of bounds in Spatial Partition! MARKER=BossMedium REGION=Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 CELL=Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_W_Boss_A.cell, cellid=1, cellpos=(9216.00, 6912.00, 0.00), game=serverGameId=0x30065AC38280000 MARKERPOS=x:0.515332 y:112.57064 z:63.999996
+[2024.01.20 22:16:40.096] [Trace] [SpawnMarkerRegistry] Trying to insert Marker out of bounds in Spatial Partition! MARKER=MissionSmallV1 REGION=Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 CELL=Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_W_Boss_A.cell, cellid=1, cellpos=(9216.00, 6912.00, 0.00), game=serverGameId=0x30065AC38280000 MARKERPOS=x:48 y:304 z:80
+[2024.01.20 22:16:40.098] [Trace] [SpawnMarkerRegistry] Trying to insert Marker out of bounds in Spatial Partition! MARKER=MissionTinyV1 REGION=Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 CELL=Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_W_Boss_A.cell, cellid=1, cellpos=(9216.00, 6912.00, 0.00), game=serverGameId=0x30065AC38280000 MARKERPOS=x:0 y:0 z:64
+[2024.01.20 22:16:40.099] [Trace] [SpawnMarkerRegistry] Trying to insert Marker out of bounds in Spatial Partition! MARKER=MissionTinyV2 REGION=Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 CELL=Resource/Cells/Brooklyn/Brooklyn_Trans/Taskmaster_W_Boss_A.cell, cellid=1, cellpos=(9216.00, 6912.00, 0.00), game=serverGameId=0x30065AC38280000 MARKERPOS=x:176 y:240 z:80
+[2024.01.20 22:16:40.102] [Trace] [CellSetRegistry] CellSetRegistry::LoadCellSet(Brooklyn/Taskmaster_A/)
+[2024.01.20 22:16:40.184] [Debug] [Region] Adding area DynamicArea, id=10, areapos = (-2304.00, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.187] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=15, cellpos=(-2304.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=10
+[2024.01.20 22:16:40.250] [Debug] [Region] Adding area DynamicArea, id=11, areapos = (-2304.00, -4608.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.251] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=16, cellpos=(-2304.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=11
+[2024.01.20 22:16:40.321] [Debug] [Region] Adding area DynamicArea, id=12, areapos = (-4608.00, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.324] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=17, cellpos=(-4608.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=12
+[2024.01.20 22:16:40.382] [Debug] [Region] Adding area DynamicArea, id=13, areapos = (-0.00, -4608.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.385] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=18, cellpos=(0.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=13
+[2024.01.20 22:16:40.448] [Debug] [Region] Adding area DynamicArea, id=14, areapos = (-6912.00, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.449] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=19, cellpos=(-6912.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=14
+[2024.01.20 22:16:40.515] [Debug] [Region] Adding area DynamicArea, id=15, areapos = (2304.00, -4608.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.516] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=20, cellpos=(2304.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=15
+[2024.01.20 22:16:40.579] [Debug] [Region] Adding area DynamicArea, id=16, areapos = (-9216.00, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.580] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=21, cellpos=(-9216.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=16
+[2024.01.20 22:16:40.646] [Debug] [Region] Adding area DynamicArea, id=17, areapos = (-6912.00, -0.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.649] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=22, cellpos=(-6912.00, 0.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=17
+[2024.01.20 22:16:40.809] [Debug] [Region] Adding area DynamicArea, id=18, areapos = (-0.00, -0.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.810] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=23, cellpos=(0.00, 0.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=18
+[2024.01.20 22:16:40.882] [Debug] [Region] Adding area DynamicArea, id=19, areapos = (-6912.00, -2304.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.885] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=24, cellpos=(-6912.00, -2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=19
+[2024.01.20 22:16:40.948] [Debug] [Region] Adding area DynamicArea, id=20, areapos = (-0.00, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:40.949] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=25, cellpos=(0.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=20
+[2024.01.20 22:16:41.011] [Debug] [Region] Adding area DynamicArea, id=21, areapos = (-6912.00, -4608.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.014] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=26, cellpos=(-6912.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=21
+[2024.01.20 22:16:41.078] [Debug] [Region] Adding area DynamicArea, id=22, areapos = (-0.00, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.081] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=27, cellpos=(0.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=22
+[2024.01.20 22:16:41.143] [Debug] [Region] Adding area DynamicArea, id=23, areapos = (-6912.00, -6912.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.147] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=28, cellpos=(-6912.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=23
+[2024.01.20 22:16:41.209] [Debug] [Region] Adding area DynamicArea, id=24, areapos = (-4608.00, -6912.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.210] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=29, cellpos=(-4608.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=24
+[2024.01.20 22:16:41.275] [Debug] [Region] Adding area DynamicArea, id=25, areapos = (-2304.00, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.277] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=30, cellpos=(-2304.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=25
+[2024.01.20 22:16:41.341] [Debug] [Region] Adding area DynamicArea, id=26, areapos = (-2304.00, -6912.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.342] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=31, cellpos=(-2304.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=26
+[2024.01.20 22:16:41.407] [Debug] [Region] Adding area DynamicArea, id=27, areapos = (-4608.00, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.409] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=32, cellpos=(-4608.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=27
+[2024.01.20 22:16:41.474] [Debug] [Region] Adding area DynamicArea, id=28, areapos = (-0.00, -6912.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.475] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=33, cellpos=(0.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=28
+[2024.01.20 22:16:41.539] [Debug] [Region] Adding area DynamicArea, id=29, areapos = (-6912.00, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.540] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=34, cellpos=(-6912.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=29
+[2024.01.20 22:16:41.607] [Debug] [Region] Adding area DynamicArea, id=30, areapos = (2304.00, -6912.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.610] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=35, cellpos=(2304.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=30
+[2024.01.20 22:16:41.671] [Debug] [Region] Adding area DynamicArea, id=31, areapos = (-9216.00, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.672] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=36, cellpos=(-9216.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=31
+[2024.01.20 22:16:41.739] [Debug] [Region] Adding area DynamicArea, id=32, areapos = (-9216.00, -0.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.741] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=37, cellpos=(-9216.00, 0.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=32
+[2024.01.20 22:16:41.807] [Debug] [Region] Adding area DynamicArea, id=33, areapos = (-9216.00, -2304.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.810] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=38, cellpos=(-9216.00, -2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=33
+[2024.01.20 22:16:41.870] [Debug] [Region] Adding area DynamicArea, id=34, areapos = (-9216.00, -4608.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.872] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=39, cellpos=(-9216.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=34
+[2024.01.20 22:16:41.936] [Debug] [Region] Adding area DynamicArea, id=35, areapos = (-9216.00, -6912.01, 0.00), seed = 1595959599
+[2024.01.20 22:16:41.938] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_A/Taskmaster_A_FILLER_A.cell, cellid=40, cellpos=(-9216.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=35
+[2024.01.20 22:16:41.939] [Trace] [CellSetRegistry] CellSetRegistry::LoadCellSet(Brooklyn/Taskmaster_B/)
+[2024.01.20 22:16:42.039] [Debug] [Region] Adding area DynamicArea, id=36, areapos = (4607.99, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.041] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=41, cellpos=(4608.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=36
+[2024.01.20 22:16:42.103] [Debug] [Region] Adding area DynamicArea, id=37, areapos = (4607.99, -4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.104] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=42, cellpos=(4608.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=37
+[2024.01.20 22:16:42.169] [Debug] [Region] Adding area DynamicArea, id=38, areapos = (6911.99, -4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.170] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=43, cellpos=(6912.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=38
+[2024.01.20 22:16:42.236] [Debug] [Region] Adding area DynamicArea, id=39, areapos = (9215.99, -4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.238] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=44, cellpos=(9216.00, -4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=39
+[2024.01.20 22:16:42.300] [Debug] [Region] Adding area DynamicArea, id=40, areapos = (6911.99, -2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.304] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=45, cellpos=(6912.00, -2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=40
+[2024.01.20 22:16:42.368] [Debug] [Region] Adding area DynamicArea, id=41, areapos = (6911.99, -0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.369] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=46, cellpos=(6912.00, 0.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=41
+[2024.01.20 22:16:42.433] [Debug] [Region] Adding area DynamicArea, id=42, areapos = (6911.99, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.435] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=47, cellpos=(6912.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=42
+[2024.01.20 22:16:42.498] [Debug] [Region] Adding area DynamicArea, id=43, areapos = (6911.99, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.500] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=48, cellpos=(6912.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=43
+[2024.01.20 22:16:42.565] [Debug] [Region] Adding area DynamicArea, id=44, areapos = (4607.99, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.570] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=49, cellpos=(4608.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=44
+[2024.01.20 22:16:42.633] [Debug] [Region] Adding area DynamicArea, id=45, areapos = (4607.99, -6912.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.636] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=50, cellpos=(4608.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=45
+[2024.01.20 22:16:42.697] [Debug] [Region] Adding area DynamicArea, id=46, areapos = (6911.99, -6912.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.698] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=51, cellpos=(6912.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=46
+[2024.01.20 22:16:42.764] [Debug] [Region] Adding area DynamicArea, id=47, areapos = (9215.99, -6912.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.765] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=52, cellpos=(9216.00, -6912.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=47
+[2024.01.20 22:16:42.830] [Debug] [Region] Adding area DynamicArea, id=48, areapos = (9215.99, -2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.831] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=53, cellpos=(9216.00, -2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=48
+[2024.01.20 22:16:42.894] [Debug] [Region] Adding area DynamicArea, id=49, areapos = (9215.99, -0.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.898] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=54, cellpos=(9216.00, 0.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=49
+[2024.01.20 22:16:42.962] [Debug] [Region] Adding area DynamicArea, id=50, areapos = (9215.99, 2304.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:42.965] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=55, cellpos=(9216.00, 2304.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=50
+[2024.01.20 22:16:43.029] [Debug] [Region] Adding area DynamicArea, id=51, areapos = (9215.99, 4608.00, 0.00), seed = 1595959599
+[2024.01.20 22:16:43.031] [Trace] [RegionManager] Adding cell Resource/Cells/Brooklyn/Taskmaster_B/Taskmaster_B_FILLER_A.cell, cellid=56, cellpos=(9216.00, 4608.00, 0.00), game=serverGameId=0x30065AC38280000 in region Regions/StoryRevamp/CH02JerseyDocks/CH0207TaskmasterRegion.prototype, ID=0x40065AC38310002 (288342166503227394), DIFF=Tier1Normal, SEED=1595959599, GAMEID=serverGameId=0x30065AC38280000 area id=51
+[2024.01.20 22:16:43.082] [ Warn] [Game] Game update took longer (9134 ms) than target tick time (50 ms)
+[2024.01.20 22:16:43.146] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerSystemMetrics (id 1)
+[2024.01.20 22:16:43.218] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.20 22:16:43.288] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.20 22:16:44.187] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.20 22:16:44.854] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.20 22:16:44.855] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.20 22:16:44.876] [ Warn] [PlayerManagerService] Received unhandled message NetMessageStashCurrentlyOpen (id 153)
+[2024.01.20 22:16:44.908] [ Info] [Game] Received NetMessageRequestInterestInInventory 6032748110516201956
+[2024.01.20 22:16:44.916] [ Warn] [PlayerManagerService] Received unhandled message NetMessageStashInventoryViewed (id 152)
+[2024.01.20 22:16:46.731] [ Info] [Game] Received CellLoaded message cell[14] loaded [1/54]
+[2024.01.20 22:16:46.791] [ Info] [Game] Received CellLoaded message cell[11] loaded [2/54]
+[2024.01.20 22:16:46.793] [ Info] [Game] Received CellLoaded message cell[12] loaded [3/54]
+[2024.01.20 22:16:46.794] [ Info] [Game] Received CellLoaded message cell[10] loaded [4/54]
+[2024.01.20 22:16:46.855] [ Info] [Game] Received CellLoaded message cell[13] loaded [5/54]
+[2024.01.20 22:16:46.856] [ Info] [Game] Received CellLoaded message cell[9] loaded [6/54]
+[2024.01.20 22:16:46.856] [ Info] [Game] Received CellLoaded message cell[6] loaded [7/54]
+[2024.01.20 22:16:46.919] [ Info] [Game] Received CellLoaded message cell[5] loaded [8/54]
+[2024.01.20 22:16:46.920] [ Info] [Game] Received CellLoaded message cell[7] loaded [9/54]
+[2024.01.20 22:16:46.920] [ Info] [Game] Received CellLoaded message cell[8] loaded [10/54]
+[2024.01.20 22:16:46.921] [ Info] [Game] Received CellLoaded message cell[4] loaded [11/54]
+[2024.01.20 22:16:46.922] [ Info] [Game] Received CellLoaded message cell[3] loaded [12/54]
+[2024.01.20 22:16:46.922] [ Info] [Game] Received CellLoaded message cell[15] loaded [13/54]
+[2024.01.20 22:16:46.923] [ Info] [Game] Received CellLoaded message cell[16] loaded [14/54]
+[2024.01.20 22:16:46.924] [ Info] [Game] Received CellLoaded message cell[17] loaded [15/54]
+[2024.01.20 22:16:46.924] [ Info] [Game] Received CellLoaded message cell[18] loaded [16/54]
+[2024.01.20 22:16:46.925] [ Info] [Game] Received CellLoaded message cell[19] loaded [17/54]
+[2024.01.20 22:16:46.926] [ Info] [Game] Received CellLoaded message cell[20] loaded [18/54]
+[2024.01.20 22:16:46.980] [ Info] [Game] Received CellLoaded message cell[21] loaded [19/54]
+[2024.01.20 22:16:46.983] [ Info] [Game] Received CellLoaded message cell[22] loaded [20/54]
+[2024.01.20 22:16:46.984] [ Info] [Game] Received CellLoaded message cell[25] loaded [21/54]
+[2024.01.20 22:16:46.985] [ Info] [Game] Received CellLoaded message cell[26] loaded [22/54]
+[2024.01.20 22:16:46.986] [ Info] [Game] Received CellLoaded message cell[27] loaded [23/54]
+[2024.01.20 22:16:46.987] [ Info] [Game] Received CellLoaded message cell[28] loaded [24/54]
+[2024.01.20 22:16:46.988] [ Info] [Game] Received CellLoaded message cell[29] loaded [25/54]
+[2024.01.20 22:16:46.990] [ Info] [Game] Received CellLoaded message cell[30] loaded [26/54]
+[2024.01.20 22:16:46.990] [ Info] [Game] Received CellLoaded message cell[31] loaded [27/54]
+[2024.01.20 22:16:46.991] [ Info] [Game] Received CellLoaded message cell[32] loaded [28/54]
+[2024.01.20 22:16:46.994] [ Info] [Game] Received CellLoaded message cell[33] loaded [29/54]
+[2024.01.20 22:16:46.994] [ Info] [Game] Received CellLoaded message cell[34] loaded [30/54]
+[2024.01.20 22:16:46.997] [ Info] [Game] Received CellLoaded message cell[35] loaded [31/54]
+[2024.01.20 22:16:46.998] [ Info] [Game] Received CellLoaded message cell[36] loaded [32/54]
+[2024.01.20 22:16:46.999] [ Info] [Game] Received CellLoaded message cell[37] loaded [33/54]
+[2024.01.20 22:16:46.999] [ Info] [Game] Received CellLoaded message cell[38] loaded [34/54]
+[2024.01.20 22:16:47.000] [ Info] [Game] Received CellLoaded message cell[39] loaded [35/54]
+[2024.01.20 22:16:47.000] [ Info] [Game] Received CellLoaded message cell[40] loaded [36/54]
+[2024.01.20 22:16:47.000] [ Info] [Game] Received CellLoaded message cell[41] loaded [37/54]
+[2024.01.20 22:16:47.001] [ Info] [Game] Received CellLoaded message cell[42] loaded [38/54]
+[2024.01.20 22:16:47.001] [ Info] [Game] Received CellLoaded message cell[43] loaded [39/54]
+[2024.01.20 22:16:47.002] [ Info] [Game] Received CellLoaded message cell[44] loaded [40/54]
+[2024.01.20 22:16:47.002] [ Info] [Game] Received CellLoaded message cell[45] loaded [41/54]
+[2024.01.20 22:16:47.003] [ Info] [Game] Received CellLoaded message cell[46] loaded [42/54]
+[2024.01.20 22:16:47.003] [ Info] [Game] Received CellLoaded message cell[47] loaded [43/54]
+[2024.01.20 22:16:47.004] [ Info] [Game] Received CellLoaded message cell[48] loaded [44/54]
+[2024.01.20 22:16:47.004] [ Info] [Game] Received CellLoaded message cell[49] loaded [45/54]
+[2024.01.20 22:16:47.005] [ Info] [Game] Received CellLoaded message cell[50] loaded [46/54]
+[2024.01.20 22:16:47.005] [ Info] [Game] Received CellLoaded message cell[51] loaded [47/54]
+[2024.01.20 22:16:47.005] [ Info] [Game] Received CellLoaded message cell[52] loaded [48/54]
+[2024.01.20 22:16:47.006] [ Info] [Game] Received CellLoaded message cell[53] loaded [49/54]
+[2024.01.20 22:16:47.007] [ Info] [Game] Received CellLoaded message cell[54] loaded [50/54]
+[2024.01.20 22:16:47.007] [ Info] [Game] Received CellLoaded message cell[55] loaded [51/54]
+[2024.01.20 22:16:47.008] [ Info] [Game] Received CellLoaded message cell[56] loaded [52/54]
+[2024.01.20 22:16:48.018] [ Info] [BillingService] Received NetMessageGetCatalog
+[2024.01.20 22:16:48.204] [ Warn] [PlayerManagerService] Received unhandled message NetMessageStashCurrentlyOpen (id 153)
+[2024.01.20 22:16:48.228] [ Info] [Game] Received NetMessageRequestInterestInInventory 6032748110516201956
+[2024.01.20 22:16:48.231] [ Warn] [PlayerManagerService] Received unhandled message NetMessageStashInventoryViewed (id 152)
+[2024.01.20 22:16:52.032] [ Warn] [EventManager] For?ed loading
+[2024.01.20 22:16:52.090] [ Warn] [Game] Game update took longer (58 ms) than target tick time (50 ms)
+[2024.01.20 22:16:52.098] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)

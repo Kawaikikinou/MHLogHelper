@@ -1,0 +1,6 @@
+idTransitionEntity: 12
+waypointDataRef: 11356108809238024489
+regionProtoId: 3240864148892687230
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 22:19:08.073] [ Warn] [Game] Region CH0209HoodsHideoutRegion is not available

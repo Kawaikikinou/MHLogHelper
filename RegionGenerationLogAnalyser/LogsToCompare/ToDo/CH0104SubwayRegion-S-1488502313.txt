@@ -1,0 +1,6 @@
+idTransitionEntity: 12
+waypointDataRef: 17321520890361420005
+regionProtoId: 9191439093559269723
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 22:06:19.515] [ Warn] [Game] Region CH0104SubwayRegion is not available

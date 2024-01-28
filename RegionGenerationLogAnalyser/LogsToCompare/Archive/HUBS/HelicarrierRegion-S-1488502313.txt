@@ -1,0 +1,25 @@
+idTransitionEntity: 12
+waypointDataRef: 17973516022493089786
+regionProtoId: 13623659297421268224
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 18:32:25.943] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Helicarrier/Helicarrier_HUB.cell, cellid=37, cellpos=(0.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/Helicarrier/HelicarrierRegion.prototype, ID=0x40065A41AA90007 (288342131648036871), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:25.948] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 18:32:25.949] [ Warn] [PlayerManagerService] Received unhandled message NetMessageSetDialogTarget (id 100)
+[2024.01.14 18:32:25.967] [Trace] [PowerMessageHandler] Received ContinuousPowerUpdate for
+[2024.01.14 18:32:26.041] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 18:32:26.084] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 18:32:26.095] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 18:32:29.113] [ Info] [Game] Received CellLoaded message cell[37] loaded [1/1]
+[2024.01.14 18:32:29.125] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 18:32:29.154] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 18:32:29.177] [Trace] [PowerMessageHandler] Received ContinuousPowerUpdate for
+[2024.01.14 18:32:29.303] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 18:32:29.303] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 18:32:29.373] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 18:32:29.374] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 18:32:29.569] [ Warn] [PlayerManagerService] Received unhandled message NetMessageNotifyLoadingScreenFinished (id 86)
+[2024.01.14 18:32:30.276] [ Warn] [PlayerManagerService] Received unhandled message NetMessageSetDialogTarget (id 100)
+[2024.01.14 18:32:30.307] [ Info] [Game] Received UseInteractableObject message
+[2024.01.14 18:32:32.110] [ Info] [Game] Received UseWaypoint message
+[2024.01.14 18:32:32.111] [Trace] [Game] avatarIndex: 0

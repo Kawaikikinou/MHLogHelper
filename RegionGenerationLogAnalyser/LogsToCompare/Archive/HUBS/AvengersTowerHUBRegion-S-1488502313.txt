@@ -1,0 +1,1 @@
+Adding cell Resource/Cells/DistrictCells/Avengers_Tower/AvengersTowerNPE_HUB.cell, cellid=1, cellpos=(0.00, 0.00, 0.00), game=serverGameId=0x30065A317D50000 in region Regions/HUBS/AvengersTowerHUB/AvengersTowerHUBRegion.prototype, ID=0xFF800000FA23AE9 (1150669705055451881), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A317D50000

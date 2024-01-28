@@ -1,0 +1,20 @@
+[0181.53] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0181.53] Log: [[Game]] CLIENT: RegionChange to Regions/HUBS/TrainingRooms/TrainingRoomSHIELDRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0181.54] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0181.54] Log: [[Game]] Navi Fast Triangle Lookup: 9x9 = 81 sectors
+[0181.54] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Training_Rooms/TrainingRoom_SHIELD_B.cell, cellid=1, cellpos=(0.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/TrainingRooms/TrainingRoomSHIELDRegion.prototype, ID=0x40065a41ab70009 (288342131648954377), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0181.70] Error: [VerifyFail] Verify failed: worldInfo->StreamingLevels.Num() == 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\UnrealRegionAdapter.cpp Line:233
+
+[0181.70] Error: [VerifyFail] Verify failed: Detected unreal actor leak after region change!
+        AreaActor persistantenvironment.TheWorld:PersistentLevel.AreaActor_1
+
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\MarvelGameEngine.cpp Line:2174
+
+[0181.70] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0181.70] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652

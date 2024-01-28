@@ -1,0 +1,33 @@
+idTransitionEntity: 12
+waypointDataRef: 1913179779894743569
+regionProtoId: 17072997612720691719
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 18:31:45.142] [Error] [EdgeReport] PushOrCleanEdge edge = null
+[2024.01.14 18:31:45.143] [Error] [EdgeReport] PushOrCleanEdge edge = null
+[2024.01.14 18:31:45.143] [Error] [EdgeReport] PushOrCleanEdge edge = null
+[2024.01.14 18:31:45.152] [Trace] [RegionManager] Adding cell Resource/Cells/SecretInvasion/MadripoorInvasion/Invasion_SafehouseWithin.cell, cellid=2, cellpos=(2304.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/SHIELDToolshedHUB/InvasionSafeAbodeRegion.prototype, ID=0x40065A41A810003 (288342131645415427), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:31:45.153] [Trace] [RegionManager] Adding cell Resource/Cells/SecretInvasion/MadripoorInvasion/Invasion_Safehouse.cell, cellid=3, cellpos=(0.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/SHIELDToolshedHUB/InvasionSafeAbodeRegion.prototype, ID=0x40065A41A810003 (288342131645415427), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+Trying to insert Marker out of bounds in Spatial Partition! MARKER=MissionHotspotReallySmallA400 REGION=Regions/HUBS/SHIELDToolshedHUB/InvasionSafeAbodeRegion.prototype, ID=0x40065A41A810003 (288342131645415427), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000 CELL=Resource/Cells/SecretInvasion/MadripoorInvasion/Invasion_Safehouse.cell, cellid=3, cellpos=(-1152.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 MARKERPOS=x:1107.8823 y:1107.8823 z:0
+[2024.01.14 18:31:45.163] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 18:31:45.165] [ Warn] [PlayerManagerService] Received unhandled message NetMessageSetDialogTarget (id 100)
+[2024.01.14 18:31:45.192] [Trace] [PowerMessageHandler] Received ContinuousPowerUpdate for
+[2024.01.14 18:31:45.269] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 18:31:45.339] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 18:31:45.355] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 18:31:49.094] [ Info] [Game] Received CellLoaded message cell[3] loaded [1/2]
+[2024.01.14 18:31:49.285] [ Info] [Game] Received CellLoaded message cell[2] loaded [2/2]
+[2024.01.14 18:31:49.329] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 18:31:49.351] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 18:31:49.411] [Trace] [PowerMessageHandler] Received ContinuousPowerUpdate for
+[2024.01.14 18:31:49.474] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 18:31:49.537] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 18:31:49.609] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 18:31:49.609] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 18:31:49.843] [ Warn] [PlayerManagerService] Received unhandled message NetMessageNotifyLoadingScreenFinished (id 86)
+[2024.01.14 18:31:57.888] [ Info] [Game] Received UseInteractableObject message
+[2024.01.14 18:31:57.890] [ Warn] [PlayerManagerService] Received unhandled message NetMessageSetDialogTarget (id 100)
+[2024.01.14 18:32:06.876] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeDifficulty (id 43)
+[2024.01.14 18:32:06.876] [ Warn] [PlayerManagerService] Received unhandled message NetMessageSetDialogTarget (id 100)
+[2024.01.14 18:32:06.910] [ Info] [Game] Received UseWaypoint message
+[2024.01.14 18:32:06.911] [Trace] [Game] avatarIndex: 0

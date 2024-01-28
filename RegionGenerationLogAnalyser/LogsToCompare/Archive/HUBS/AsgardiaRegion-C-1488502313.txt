@@ -1,0 +1,34 @@
+[0029.21] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0029.21] Log: [[Game]] CLIENT: RegionChange to Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0029.21] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0029.21] Log: [[Game]] Navi Fast Triangle Lookup: 9x16 = 144 sectors
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X0Y0.cell, cellid=1, cellpos=(0.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X0Y1.cell, cellid=2, cellpos=(0.00, 2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X0Y2.cell, cellid=3, cellpos=(0.00, 4608.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X0Y3.cell, cellid=4, cellpos=(0.00, 6912.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X1Y0.cell, cellid=5, cellpos=(2304.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X1Y1.cell, cellid=6, cellpos=(2304.00, 2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X1Y2.cell, cellid=7, cellpos=(2304.00, 4608.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X1Y3.cell, cellid=8, cellpos=(2304.00, 6912.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X2Y0.cell, cellid=9, cellpos=(4608.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X2Y1.cell, cellid=10, cellpos=(4608.00, 2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X2Y2.cell, cellid=11, cellpos=(4608.00, 4608.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_X2Y3.cell, cellid=12, cellpos=(4608.00, 6912.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_Bridge_EXT_A.cell, cellid=13, cellpos=(2304.00, -2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.22] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Asgardia/Asgardia_Bridge_EXT_B.cell, cellid=14, cellpos=(2304.00, -4608.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/AsgardiaHUB/AsgardiaRegion.prototype, ID=0x40065a41aa30006 (288342131647643654), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0029.23] Log: LoadMap: PersistantEnvironment
+[0031.71] Log: Game class is 'MarvelGameInfo'
+[0031.71] Log: Primary PhysX scene will be in software.
+[0031.71] Log: Creating Primary PhysX Scene.
+[0031.71] Log: Bringing World persistantenvironment.TheWorld up for play (0) at 2024.01.14-19.14.08
+[0031.71] Log: Bringing up level for play took: 0.005640
+[0031.78] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0031.78] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0031.81] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0031.81] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0032.11] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0032.11] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0032.29] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0032.29] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'

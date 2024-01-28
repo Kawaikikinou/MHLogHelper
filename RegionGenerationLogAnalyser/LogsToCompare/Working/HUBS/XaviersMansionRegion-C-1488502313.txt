@@ -1,0 +1,118 @@
+[0174.86] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0174.86] Log: [[Game]] CLIENT: RegionChange to Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0174.86] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0174.86] Log: [[Game]] Navi Fast Triangle Lookup: 12x16 = 192 sectors
+[0174.87] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_A.cell, cellid=16, cellpos=(3072.00, -4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.87] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_AA.cell, cellid=17, cellpos=(-5120.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.87] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_B.cell, cellid=18, cellpos=(3072.00, -2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.87] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_BB.cell, cellid=19, cellpos=(-5120.00, 2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.87] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_C.cell, cellid=20, cellpos=(3072.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.87] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_CC.cell, cellid=21, cellpos=(-5120.00, 4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.89] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_D.cell, cellid=22, cellpos=(3072.00, 2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.90] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_E.cell, cellid=23, cellpos=(1024.00, -4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.90] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_F.cell, cellid=24, cellpos=(1024.00, -2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.90] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_G.cell, cellid=25, cellpos=(1024.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.91] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_H.cell, cellid=26, cellpos=(1024.00, 2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.91] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_I.cell, cellid=27, cellpos=(1024.00, 4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.91] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_J.cell, cellid=28, cellpos=(1024.00, 6144.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.91] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_K.cell, cellid=29, cellpos=(-1024.00, -4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.91] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_L.cell, cellid=30, cellpos=(-1024.00, -2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.91] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_M.cell, cellid=31, cellpos=(-1024.00, 0.00, -19.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.91] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_N.cell, cellid=32, cellpos=(-1024.00, 2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_O.cell, cellid=33, cellpos=(-1024.00, 4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_P.cell, cellid=34, cellpos=(-1024.00, 6144.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_Q.cell, cellid=35, cellpos=(-1024.00, 8192.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_R.cell, cellid=36, cellpos=(-3072.00, -4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_S.cell, cellid=37, cellpos=(-3072.00, -2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_T.cell, cellid=38, cellpos=(-3072.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_U.cell, cellid=39, cellpos=(-3072.00, 2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.92] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_V.cell, cellid=40, cellpos=(-3072.00, 4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.93] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_W.cell, cellid=41, cellpos=(-3072.00, 6144.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.93] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_X.cell, cellid=42, cellpos=(-3072.00, 8192.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.93] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_Y.cell, cellid=43, cellpos=(-5120.00, -4096.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0174.93] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_Z.cell, cellid=44, cellpos=(-5120.00, -2048.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.40] Error: [VerifyFail] Verify failed: worldInfo->StreamingLevels.Num() == 0
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\UnrealRegionAdapter.cpp Line:233
+
+[0175.40] Error: [VerifyFail] Verify failed: Detected unreal actor leak after region change!
+	AreaActor persistantenvironment.TheWorld:PersistentLevel.AreaActor_4
+
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\MarvelGameEngine.cpp Line:2174
+
+[0175.41] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0175.41] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0175.42] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0175.42] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0175.42] Log: [[Game]] Removing cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_A.cell, cellid=38, cellpos=(3072.00, -4096.00, 0.00), game=clientGameId=0x1 from region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.42] Error: [VerifyFail] Verify failed: clientCell
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0175.42] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0175.42] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0175.42] Log: [[Game]] Removing cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_AA.cell, cellid=39, cellpos=(-5120.00, 0.00, 0.00), game=clientGameId=0x1 from region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.42] Error: [VerifyFail] Verify failed: clientCell
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0175.43] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0175.43] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0175.43] Log: [[Game]] Removing cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_B.cell, cellid=40, cellpos=(3072.00, -2048.00, 0.00), game=clientGameId=0x1 from region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.43] Error: [VerifyFail] Verify failed: clientCell
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0175.43] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0175.43] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0175.43] Log: [[Game]] Removing cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_BB.cell, cellid=41, cellpos=(-5120.00, 2048.00, 0.00), game=clientGameId=0x1 from region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.43] Error: [VerifyFail] Verify failed: clientCell
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0175.43] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0175.43] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0175.43] Log: [[Game]] Removing cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_C.cell, cellid=42, cellpos=(3072.00, 0.00, 0.00), game=clientGameId=0x1 from region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.43] Error: [VerifyFail] Verify failed: clientCell
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0175.43] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0175.43] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0175.43] Log: [[Game]] Removing cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_CC.cell, cellid=43, cellpos=(-5120.00, 4096.00, 0.00), game=clientGameId=0x1 from region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.44] Error: [VerifyFail] Verify failed: clientCell
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0175.44] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0175.44] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0175.44] Log: [[Game]] Removing cell Resource/Cells/DistrictCells/X_Mansion/X_Mansion_D.cell, cellid=44, cellpos=(3072.00, 2048.00, 0.00), game=clientGameId=0x1 from region Regions/HUBS/XaviersMansion/XaviersMansionRegion.prototype, ID=0x40065a41ab00008 (288342131648495624), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0175.44] Error: [VerifyFail] Verify failed: clientCell
+	File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591

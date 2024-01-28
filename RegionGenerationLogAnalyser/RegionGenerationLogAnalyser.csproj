@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,33 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Logs\Archive\**" />
-    <Compile Remove="Logs\Ch01\**" />
-    <Compile Remove="Logs\Chapter 2\**" />
-    <Compile Remove="Logs\Dont work\**" />
-    <Compile Remove="Logs\ToDo\**" />
-    <Compile Remove="Logs\Working\**" />
-    <EmbeddedResource Remove="Logs\Archive\**" />
-    <EmbeddedResource Remove="Logs\Ch01\**" />
-    <EmbeddedResource Remove="Logs\Chapter 2\**" />
-    <EmbeddedResource Remove="Logs\Dont work\**" />
-    <EmbeddedResource Remove="Logs\ToDo\**" />
-    <EmbeddedResource Remove="Logs\Working\**" />
-    <None Remove="Logs\Archive\**" />
-    <None Remove="Logs\Ch01\**" />
-    <None Remove="Logs\Chapter 2\**" />
-    <None Remove="Logs\Dont work\**" />
-    <None Remove="Logs\ToDo\**" />
-    <None Remove="Logs\Working\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Logs\CH0301MadripoorRegion-C-1488502313.txt" />
-    <None Remove="Logs\CH0301MadripoorRegion-S-1488502313.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Logs\" />
+    <Compile Remove="Logs\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <None Remove="Logs\**" />
   </ItemGroup>
 
 </Project>

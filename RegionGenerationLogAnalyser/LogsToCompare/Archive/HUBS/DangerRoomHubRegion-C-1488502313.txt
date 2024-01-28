@@ -1,0 +1,15 @@
+[0200.99] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0200.99] Log: [[Game]] CLIENT: RegionChange to Regions/EndGame/DangerRoomMode/HUB/DangerRoomHubRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0201.00] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0201.00] Log: [[Game]] Navi Fast Triangle Lookup: 6x6 = 36 sectors
+[0201.00] Log: [[Game]] Adding cell Resource/Cells/EndGame/EndlessDungeon/DangerRoom_LaunchTerminal.cell, cellid=3, cellpos=(0.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/EndGame/DangerRoomMode/HUB/DangerRoomHubRegion.prototype, ID=0x40065a41a960004 (288342131646791684), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0201.18] Error: [VerifyFail] Verify failed: worldInfo->StreamingLevels.Num() == 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\UnrealRegionAdapter.cpp Line:233
+
+[0201.18] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0201.18] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652

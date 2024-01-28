@@ -1,0 +1,22 @@
+[0038.96] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0038.96] Log: [[Game]] CLIENT: RegionChange to Regions/HUBS/SHIELDToolshedHUB/InvasionSafeAbodeRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0038.97] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0038.97] Log: [[Game]] Navi Fast Triangle Lookup: 7x5 = 35 sectors
+[0038.97] Log: [[Game]] Adding cell Resource/Cells/SecretInvasion/MadripoorInvasion/Invasion_SafehouseWithin.cell, cellid=1, cellpos=(2304.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/SHIELDToolshedHUB/InvasionSafeAbodeRegion.prototype, ID=0x40065a41a810003 (288342131645415427), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0038.97] Log: [[Game]] Adding cell Resource/Cells/SecretInvasion/MadripoorInvasion/Invasion_Safehouse.cell, cellid=2, cellpos=(0.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/SHIELDToolshedHUB/InvasionSafeAbodeRegion.prototype, ID=0x40065a41a810003 (288342131645415427), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0039.55] Error: [VerifyFail] Verify failed: worldInfo->StreamingLevels.Num() == 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\UnrealRegionAdapter.cpp Line:233
+
+[0039.55] Error: [VerifyFail] Verify failed: Detected unreal actor leak after region change!
+        AreaActor persistantenvironment.TheWorld:PersistentLevel.AreaActor_1
+        AreaActor persistantenvironment.TheWorld:PersistentLevel.AreaActor_2
+
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\MarvelGameEngine.cpp Line:2174
+
+[0039.56] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0039.56] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652

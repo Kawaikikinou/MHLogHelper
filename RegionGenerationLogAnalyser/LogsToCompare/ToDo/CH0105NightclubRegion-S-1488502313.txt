@@ -1,0 +1,31 @@
+idTransitionEntity: 12
+waypointDataRef: 5539649184748213689
+regionProtoId: 1835346266496899713
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 22:06:57.986] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/CH01_HellsKitchen_Nightclub/NightClub_X3_Y1_StreetB.cell, cellid=2, cellpos=(-2304.00, 6912.00, 0.00), game=serverGameId=0x30065A44CA80000 in region Regions/StoryRevamp/CH01HellsKitchen/CH0105NightclubRegion.prototype, ID=0x40065A44CF10003 (288342132491616259), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A44CA80000
+[2024.01.14 22:06:57.987] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/CH01_HellsKitchen_Nightclub/NightClub_X2_Y1_StreetA.cell, cellid=3, cellpos=(-2304.00, 4608.00, 0.00), game=serverGameId=0x30065A44CA80000 in region Regions/StoryRevamp/CH01HellsKitchen/CH0105NightclubRegion.prototype, ID=0x40065A44CF10003 (288342132491616259), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A44CA80000
+[2024.01.14 22:06:57.989] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/CH01_HellsKitchen_Nightclub/NightClub_X2_Y0_StreetC.cell, cellid=4, cellpos=(0.00, 4608.00, 0.00), game=serverGameId=0x30065A44CA80000 in region Regions/StoryRevamp/CH01HellsKitchen/CH0105NightclubRegion.prototype, ID=0x40065A44CF10003 (288342132491616259), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A44CA80000
+[2024.01.14 22:06:57.992] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/CH01_HellsKitchen_Nightclub/NightClub_X3_Y0_BloodRose.cell, cellid=5, cellpos=(0.00, 6912.00, 0.00), game=serverGameId=0x30065A44CA80000 in region Regions/StoryRevamp/CH01HellsKitchen/CH0105NightclubRegion.prototype, ID=0x40065A44CF10003 (288342132491616259), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A44CA80000
+[2024.01.14 22:06:57.995] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/CH01_HellsKitchen_Nightclub/NightClub_X4_Y0_ParkingGarage.cell, cellid=6, cellpos=(0.00, 9216.00, 0.00), game=serverGameId=0x30065A44CA80000 in region Regions/StoryRevamp/CH01HellsKitchen/CH0105NightclubRegion.prototype, ID=0x40065A44CF10003 (288342132491616259), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A44CA80000
+[2024.01.14 22:06:57.998] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/CH01_HellsKitchen_Nightclub/Nightclub_X3_Y2_Subway.cell, cellid=7, cellpos=(-4608.00, 6912.00, 0.00), game=serverGameId=0x30065A44CA80000 in region Regions/StoryRevamp/CH01HellsKitchen/CH0105NightclubRegion.prototype, ID=0x40065A44CF10003 (288342132491616259), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A44CA80000
+[2024.01.14 22:06:57.999] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/CH01_HellsKitchen_Nightclub/NightClub_X2_Y2_StreetD.cell, cellid=8, cellpos=(-4608.00, 4608.00, 0.00), game=serverGameId=0x30065A44CA80000 in region Regions/StoryRevamp/CH01HellsKitchen/CH0105NightclubRegion.prototype, ID=0x40065A44CF10003 (288342132491616259), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A44CA80000
+[2024.01.14 22:06:58.007] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 22:06:58.039] [Trace] [PowerMessageHandler] Received ContinuousPowerUpdate for
+[2024.01.14 22:06:58.063] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 22:06:58.120] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 22:06:58.123] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 22:07:00.245] [ Info] [Game] Received CellLoaded message cell[2] loaded [1/7]
+[2024.01.14 22:07:00.371] [ Info] [Game] Received CellLoaded message cell[3] loaded [2/7]
+[2024.01.14 22:07:00.435] [ Info] [Game] Received CellLoaded message cell[4] loaded [3/7]
+[2024.01.14 22:07:00.813] [ Info] [Game] Received CellLoaded message cell[5] loaded [4/7]
+[2024.01.14 22:07:00.938] [ Info] [Game] Received CellLoaded message cell[6] loaded [5/7]
+[2024.01.14 22:07:01.065] [ Info] [Game] Received CellLoaded message cell[7] loaded [6/7]
+[2024.01.14 22:07:01.128] [ Info] [Game] Received CellLoaded message cell[8] loaded [7/7]
+[2024.01.14 22:07:01.178] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 22:07:01.192] [Trace] [PowerMessageHandler] Received ContinuousPowerUpdate for
+[2024.01.14 22:07:01.317] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 22:07:01.318] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 22:07:01.368] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 22:07:01.369] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 22:07:01.529] [ Warn] [PlayerManagerService] Received unhandled message NetMessageNotifyLoadingScreenFinished (id 86)

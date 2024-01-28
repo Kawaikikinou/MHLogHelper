@@ -1,0 +1,14 @@
+[0323.55] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0323.56] Log: [[Game]] CLIENT: RegionChange to Regions/HUBRevamp/NPEAvengersTowerHUBRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0323.56] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0323.56] Log: [[Game]] Navi Fast Triangle Lookup: 12x12 = 144 sectors
+[0323.56] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Avengers_Tower/AvengersTowerNPE_HUB.cell, cellid=2, cellpos=(0.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBRevamp/NPEAvengersTowerHUBRegion.prototype, ID=0x40065a4188d0002 (288342131612647426), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0324.50] Error: [VerifyFail] Verify failed: worldInfo->StreamingLevels.Num() == 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\UnrealRegionAdapter.cpp Line:233
+
+[0324.50] Error: [VerifyFail] Verify failed: Detected unreal actor leak after region change!
+        AreaActor persistantenvironment.TheWorld:PersistentLevel.AreaActor_3
+
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\MarvelGameEngine.cpp Line:2174

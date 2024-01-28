@@ -1,0 +1,67 @@
+idTransitionEntity: 12
+waypointDataRef: 6397818163564777045
+regionProtoId: 2398160822904886324
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 18:32:12.521] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X0Y0.cell, cellid=5, cellpos=(0.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.522] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X0Y1.cell, cellid=6, cellpos=(0.00, 2304.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.522] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y0.cell, cellid=7, cellpos=(2304.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.522] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y1.cell, cellid=8, cellpos=(2304.00, 2304.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.523] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y2.cell, cellid=9, cellpos=(2304.00, 4608.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.524] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y3.cell, cellid=10, cellpos=(2304.00, 6912.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.524] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y0.cell, cellid=11, cellpos=(4608.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.525] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y1.cell, cellid=12, cellpos=(4608.00, 2304.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.526] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y2.cell, cellid=13, cellpos=(4608.00, 4608.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.526] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y3.cell, cellid=14, cellpos=(4608.00, 6912.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.527] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y0.cell, cellid=15, cellpos=(6912.00, 0.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.527] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y1.cell, cellid=16, cellpos=(6912.00, 2304.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.528] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y2.cell, cellid=17, cellpos=(6912.00, 4608.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.528] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y3.cell, cellid=18, cellpos=(6912.00, 6912.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.529] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y4.cell, cellid=19, cellpos=(6912.00, 9216.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.531] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y5.cell, cellid=20, cellpos=(6912.00, 11520.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.532] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X4Y3.cell, cellid=21, cellpos=(9216.00, 6912.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.534] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.534] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.535] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.535] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.535] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.535] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.536] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.536] [Error] [Region] GetDistanceToClosestAreaBounds
+[2024.01.14 18:32:12.536] [Trace] [RegionManager] Adding cell Resource/Cells/DistrictCells/Genosha/GenoshaEntryArea/GenoshaEntry_X1Y1.cell, cellid=22, cellpos=(-9966.00, -9696.00, 0.00), game=serverGameId=0x30065A418680000 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065A41A9C0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=serverGameId=0x30065A418680000
+[2024.01.14 18:32:12.544] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 18:32:12.545] [ Warn] [PlayerManagerService] Received unhandled message NetMessageSetDialogTarget (id 100)
+[2024.01.14 18:32:12.577] [Trace] [PowerMessageHandler] Received ContinuousPowerUpdate for
+[2024.01.14 18:32:12.622] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 18:32:12.637] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 18:32:12.647] [ Warn] [PlayerManagerService] Received unhandled message NetMessagePlayerTradeCancel (id 144)
+[2024.01.14 18:32:13.523] [ Info] [Game] Received CellLoaded message cell[5] loaded [1/18]
+[2024.01.14 18:32:13.587] [ Info] [Game] Received CellLoaded message cell[6] loaded [2/18]
+[2024.01.14 18:32:13.649] [ Info] [Game] Received CellLoaded message cell[7] loaded [3/18]
+[2024.01.14 18:32:13.650] [ Info] [Game] Received CellLoaded message cell[8] loaded [4/18]
+[2024.01.14 18:32:13.711] [ Info] [Game] Received CellLoaded message cell[9] loaded [5/18]
+[2024.01.14 18:32:13.712] [ Info] [Game] Received CellLoaded message cell[10] loaded [6/18]
+[2024.01.14 18:32:13.712] [ Info] [Game] Received CellLoaded message cell[11] loaded [7/18]
+[2024.01.14 18:32:13.775] [ Info] [Game] Received CellLoaded message cell[12] loaded [8/18]
+[2024.01.14 18:32:13.837] [ Info] [Game] Received CellLoaded message cell[13] loaded [9/18]
+[2024.01.14 18:32:13.962] [ Info] [Game] Received CellLoaded message cell[14] loaded [10/18]
+[2024.01.14 18:32:13.963] [ Info] [Game] Received CellLoaded message cell[15] loaded [11/18]
+[2024.01.14 18:32:14.024] [ Info] [Game] Received CellLoaded message cell[16] loaded [12/18]
+[2024.01.14 18:32:14.024] [ Info] [Game] Received CellLoaded message cell[17] loaded [13/18]
+[2024.01.14 18:32:14.150] [ Info] [Game] Received CellLoaded message cell[18] loaded [14/18]
+[2024.01.14 18:32:14.336] [ Info] [Game] Received CellLoaded message cell[19] loaded [15/18]
+[2024.01.14 18:32:14.337] [ Info] [Game] Received CellLoaded message cell[20] loaded [16/18]
+[2024.01.14 18:32:14.398] [ Info] [Game] Received CellLoaded message cell[21] loaded [17/18]
+[2024.01.14 18:32:14.461] [ Info] [Game] Received CellLoaded message cell[22] loaded [18/18]
+[2024.01.14 18:32:14.490] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 18:32:14.508] [ Warn] [PlayerManagerService] Received unhandled message NetMessageChangeCameraSettings (id 148)
+[2024.01.14 18:32:14.510] [ Warn] [PlayerManagerService] Received unhandled message NetMessageCancelPendingAction (id 15)
+[2024.01.14 18:32:14.586] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 18:32:14.650] [ Info] [Game] Received NetMessageRequestInterestInAvatarEquipment
+[2024.01.14 18:32:14.681] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 18:32:14.682] [ Warn] [PlayerManagerService] Received unhandled message NetMessageVanityTitleSelect (id 140)
+[2024.01.14 18:32:14.824] [ Warn] [PlayerManagerService] Received unhandled message NetMessageNotifyLoadingScreenFinished (id 86)
+[2024.01.14 18:32:17.101] [ Warn] [PlayerManagerService] Received unhandled message NetMessageSetDialogTarget (id 100)
+[2024.01.14 18:32:17.137] [ Info] [Game] Received UseInteractableObject message
+[2024.01.14 18:32:19.196] [ Info] [Game] Received UseWaypoint message
+[2024.01.14 18:32:19.198] [Trace] [Game] avatarIndex: 0

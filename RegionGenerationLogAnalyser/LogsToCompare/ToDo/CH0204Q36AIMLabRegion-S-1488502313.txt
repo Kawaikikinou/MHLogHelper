@@ -1,0 +1,6 @@
+idTransitionEntity: 12
+waypointDataRef: 16283780449331516670
+regionProtoId: 2777924139474164138
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 22:15:21.229] [ Warn] [Game] Region CH0204Q36AIMLabRegion is not available

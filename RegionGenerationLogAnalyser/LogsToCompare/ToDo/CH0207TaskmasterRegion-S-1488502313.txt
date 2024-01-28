@@ -1,0 +1,6 @@
+idTransitionEntity: 12
+waypointDataRef: 17937372643999618372
+regionProtoId: 8702251210467252908
+difficultyProtoId: 18016845980090109785
+
+[2024.01.14 22:18:04.169] [ Warn] [Game] Region CH0207TaskmasterRegion is not available

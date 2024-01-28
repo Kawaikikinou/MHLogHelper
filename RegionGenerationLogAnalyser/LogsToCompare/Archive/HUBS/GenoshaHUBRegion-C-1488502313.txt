@@ -1,0 +1,38 @@
+[0019.83] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0019.83] Log: [[Game]] CLIENT: RegionChange to Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0019.83] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0019.83] Log: [[Game]] Navi Fast Triangle Lookup: 25x27 = 675 sectors
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X0Y0.cell, cellid=1, cellpos=(0.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X0Y1.cell, cellid=2, cellpos=(0.00, 2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y0.cell, cellid=3, cellpos=(2304.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y1.cell, cellid=4, cellpos=(2304.00, 2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y2.cell, cellid=5, cellpos=(2304.00, 4608.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X1Y3.cell, cellid=6, cellpos=(2304.00, 6912.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y0.cell, cellid=7, cellpos=(4608.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y1.cell, cellid=8, cellpos=(4608.00, 2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y2.cell, cellid=9, cellpos=(4608.00, 4608.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X2Y3.cell, cellid=10, cellpos=(4608.00, 6912.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y0.cell, cellid=11, cellpos=(6912.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y1.cell, cellid=12, cellpos=(6912.00, 2304.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y2.cell, cellid=13, cellpos=(6912.00, 4608.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y3.cell, cellid=14, cellpos=(6912.00, 6912.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.84] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y4.cell, cellid=15, cellpos=(6912.00, 9216.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.85] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X3Y5.cell, cellid=16, cellpos=(6912.00, 11520.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.85] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/Genosha_X4Y3.cell, cellid=17, cellpos=(9216.00, 6912.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.85] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Genosha/GenoshaEntryArea/GenoshaEntry_X1Y1.cell, cellid=18, cellpos=(-9966.00, -9696.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/GenoshaHUB/GenoshaHUBRegion.prototype, ID=0x40065a41a9c0005 (288342131647184901), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0019.85] Log: LoadMap: PersistantEnvironment
+[0020.58] Log: Game class is 'MarvelGameInfo'
+[0020.58] Log: Primary PhysX scene will be in software.
+[0020.58] Log: Creating Primary PhysX Scene.
+[0020.58] Log: Bringing World persistantenvironment.TheWorld up for play (0) at 2024.01.14-19.09.52
+[0020.58] Log: Bringing up level for play took: 0.005657
+[0020.64] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0020.64] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0020.66] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0020.66] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0020.93] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0020.93] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0021.10] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0021.10] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'

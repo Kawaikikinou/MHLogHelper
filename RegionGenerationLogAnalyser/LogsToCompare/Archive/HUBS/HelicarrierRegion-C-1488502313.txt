@@ -1,0 +1,20 @@
+[0093.22] Log: [[Game]] CLIENT: RegionChange to Unknown, seed=0, clearingAllInterest=0
+[0093.22] Log: [[Game]] CLIENT: RegionChange to Regions/HUBS/Helicarrier/HelicarrierRegion.prototype, seed=1488502313, clearingAllInterest=0
+[0093.23] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0093.23] Log: [[Game]] Navi Fast Triangle Lookup: 11x11 = 121 sectors
+[0093.23] Log: [[Game]] Adding cell Resource/Cells/DistrictCells/Helicarrier/Helicarrier_HUB.cell, cellid=15, cellpos=(0.00, 0.00, 0.00), game=clientGameId=0x1 in region Regions/HUBS/Helicarrier/HelicarrierRegion.prototype, ID=0x40065a41aa90007 (288342131648036871), DIFF=Tier1Normal, SEED=1488502313, GAMEID=clientGameId=0x1
+[0093.40] Error: [VerifyFail] Verify failed: worldInfo->StreamingLevels.Num() == 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\UnrealRegionAdapter.cpp Line:233
+
+[0093.40] Error: [VerifyFail] Verify failed: Detected unreal actor leak after region change!
+        AreaActor persistantenvironment.TheWorld:PersistentLevel.AreaActor_2
+
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\MarvelGameEngine.cpp Line:2174
+
+[0093.41] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0093.41] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652

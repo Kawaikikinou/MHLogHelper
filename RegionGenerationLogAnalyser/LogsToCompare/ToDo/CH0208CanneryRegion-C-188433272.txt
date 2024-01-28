@@ -1,0 +1,640 @@
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Sep  1 2017 01:13:56
+Init: Changelist: 1532151
+Init: Command line: -robocopy -nobitraider -nosteam -log LoggingLevel=EXTRA_VERBOSE LoggingChannels=-ALL,+GAME*
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\Marvel Heroes\UnrealEngine3\Binaries\Win32\
+[0000.64] Init: Computer: ANTHO
+[0000.64] Init: User: tonyn
+[0000.64] Init: CPU Page size=4096, Processors=20
+[0000.64] Init: High frequency timer resolution =10.000000 MHz
+[0000.64] Init: Memory total: Physical=15.7GB (15GB approx) Pagefile=49.7GB Virtual=4.0GB
+[0000.64] Log: Steam Client API Disabled!
+[0000.64] Init: Presizing for 62000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.64] Init: Object subsystem initialized
+[0001.64] Log: CachePaths() took 1.00 Seconds
+[0001.93] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 3050 Laptop GPU
+[0001.93] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0001.98] Log: Found D3D11 adapter 1: Intel(R) Iris(R) Xe Graphics
+[0001.98] Log: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 3967MB of shared system memory
+[0001.99] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0001.99] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory
+[0002.05] Log: VertexElementTypeSupport for VET_PackedNormal = 1
+[0002.05] Log: VertexElementTypeSupport for VET_UByte4 = 1
+[0002.05] Log: VertexElementTypeSupport for VET_UByte4N = 1
+[0002.05] Log: VertexElementTypeSupport for VET_Short2N = 1
+[0002.05] Log: VertexElementTypeSupport for VET_Half2 = 1
+[0002.08] Log: Available Resolutions - 1920 x 1080 @ 144
+[0002.08] Log: Available Resolutions - 1920 x 1080 @ 60
+[0002.08] Log: Available Resolutions -  640 x  480 @ 144
+[0002.08] Log: Available Resolutions -  640 x  480 @ 60
+[0002.08] Log: Available Resolutions -  800 x  600 @ 144
+[0002.08] Log: Available Resolutions -  800 x  600 @ 60
+[0002.08] Log: Available Resolutions - 1024 x  768 @ 144
+[0002.08] Log: Available Resolutions - 1024 x  768 @ 60
+[0002.08] Log: Available Resolutions - 1152 x  864 @ 144
+[0002.08] Log: Available Resolutions - 1152 x  864 @ 60
+[0002.08] Log: Available Resolutions - 1280 x  600 @ 144
+[0002.08] Log: Available Resolutions - 1280 x  600 @ 60
+[0002.08] Log: Available Resolutions - 1280 x  720 @ 144
+[0002.08] Log: Available Resolutions - 1280 x  720 @ 60
+[0002.08] Log: Available Resolutions - 1280 x  768 @ 144
+[0002.08] Log: Available Resolutions - 1280 x  768 @ 60
+[0002.08] Log: Available Resolutions - 1280 x  800 @ 144
+[0002.08] Log: Available Resolutions - 1280 x  800 @ 60
+[0002.08] Log: Available Resolutions - 1280 x  960 @ 144
+[0002.08] Log: Available Resolutions - 1280 x  960 @ 60
+[0002.08] Log: Available Resolutions - 1280 x 1024 @ 144
+[0002.08] Log: Available Resolutions - 1280 x 1024 @ 60
+[0002.08] Log: Available Resolutions - 1360 x  768 @ 144
+[0002.08] Log: Available Resolutions - 1360 x  768 @ 60
+[0002.08] Log: Available Resolutions - 1366 x  768 @ 144
+[0002.08] Log: Available Resolutions - 1366 x  768 @ 60
+[0002.08] Log: Available Resolutions - 1400 x 1050 @ 144
+[0002.09] Log: Available Resolutions - 1400 x 1050 @ 60
+[0002.09] Log: Available Resolutions - 1440 x  900 @ 144
+[0002.09] Log: Available Resolutions - 1440 x  900 @ 60
+[0002.09] Log: Available Resolutions - 1600 x  900 @ 144
+[0002.09] Log: Available Resolutions - 1600 x  900 @ 60
+[0002.09] Log: Available Resolutions - 1680 x 1050 @ 144
+[0002.09] Log: Available Resolutions - 1680 x 1050 @ 60
+[0002.09] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.14] Log: PhysX GPU Support: DISABLED
+[0002.66] Log: Gazillion Version: Shipping: 1.52.0.1700 CL:479899
+[0002.66] Log: [[Memory]] Tracking is off for network allocator
+[0004.82] DevPhysics: ApexManager: Unable to load legacy Framework module; loading Apex 1.0 assets may fail.
+[0004.82] DevPhysics: ApexManager: Unable to load legacy common module; loading Apex 1.1 assets may fail.
+[0004.82] DevPhysics: ApexManager: Unable to load legacy clothing module; loading old clothing assets may fail.
+[0004.82] DevPhysics: ApexManager: Unable to load legacy Destructible module; loading old Destructible assets may fail.
+[0007.41] Log: 64907 objects as part of root set at end of initial load.
+[0007.41] Log: 0 out of 0 bytes used by permanent object pool.
+[0007.41] Log: Initializing Engine...
+[0007.41] Log: UnrealAssetCache: PhysicalMB=16084 VirtualMB=3839
+[0007.41] Log:   NPC_Agents: 15
+[0007.41] Log:   Powers: 50
+[0007.41] Log:   Misc: 10
+[0007.41] Log:   Prefetch: 15
+[0007.62] Log: Wwise(R) SDK Version 2016.1.3 Build 5878. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0007.86] Log: Recreate Device Resolution - 1850 x 1041 Window
+[0008.87] Log: Steam Client API is unavailable
+[0009.17] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0009.18] Warning: Warning, Failed to find object 'Class None.'
+[0009.19] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0009.19] Warning: Warning, Failed to find object 'Class None.'
+[0009.19] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0009.19] Warning: Warning, Failed to find object 'Class None.'
+[0009.19] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0009.19] Warning: Warning, Failed to find object 'Class None.'
+[0009.21] Log: LoadMap: MarvelEntry?Name=Player?Team=255
+[0009.22] Log: Game class is 'MarvelGameInfo'
+[0009.23] Log: Primary PhysX scene will be in software.
+[0009.23] Log: Creating Primary PhysX Scene.
+[0009.24] Log: Bringing World marvelentry.TheWorld up for play (0) at 2024.01.20-22.49.11
+[0009.25] Log: Bringing up level for play took: 0.018701
+[0009.26] Log: ########### Finished loading level: 0.049557 seconds
+[0009.80] Log: LoadMap: AnniversaryTest
+[0009.84] Log: Game class is 'MarvelGameInfo'
+[0009.86] Log: Primary PhysX scene will be in software.
+[0009.86] Log: Creating Primary PhysX Scene.
+[0009.87] Log: Bringing World anniversarytest.TheWorld up for play (0) at 2024.01.20-22.49.11
+[0009.87] Log: Bringing up level for play took: 0.028104
+[0009.88] Log: ########### Finished loading level: 0.076227 seconds
+[0009.88] Log: Initializing Engine Completed
+[0010.24] Log: >>>>>>>>>>>>>> Initial startup: 10.24s <<<<<<<<<<<<<<<
+[0010.54] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0010.54] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0010.54] Error: [VerifyFail] Verify failed: Update Your Device Drivers for Intel(R) Iris(R) Xe Graphics. Driver Date 26/05/2022
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\MarvelGFxFrontEnd.cpp Line:283
+
+[0010.55] Log: ActivateLevel anniversarytest_avengerscore 1 1 0
+[0010.55] Log: ActivateLevel anniversarytest_group2 1 1 0
+[0010.56] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0010.56] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0011.22] Log: ActivateLevel anniversarytest_group3 1 1 0
+[0011.22] Log: ActivateLevel anniversarytest_group4 1 1 0
+[0011.22] Log: ActivateLevel anniversarytest_group5 1 1 0
+[0011.22] Log: ActivateLevel anniversarytest_group6 1 1 0
+[0011.22] Log: ActivateLevel anniversarytest_group7 1 1 0
+[0011.22] Log: ActivateLevel anniversarytest_group8 1 1 0
+[0011.22] Log: ActivateLevel anniversarytest_group9 1 1 0
+[0011.23] Log: ActivateLevel anniversarytest_group10 1 1 0
+[0011.23] Log: ActivateLevel anniversarytest_group11 1 1 0
+[0011.23] Log: ActivateLevel anniversarytest_group12 1 1 0
+[0011.23] Log: ActivateLevel anniversarytest_group13 1 1 0
+[0012.30] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_10]
+[0012.30] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_10]
+[0012.30] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_12]
+[0012.46] Warning: SkeletalMeshCinematicActor_17 has unsupported physics mode 8
+[0464.14] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0464.14] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0464.45] Log: LoadMap: PersistantEnvironment
+[0464.67] Log: Game class is 'MarvelGameInfo'
+[0464.75] Log: Primary PhysX scene will be in software.
+[0464.75] Log: Creating Primary PhysX Scene.
+[0464.76] Log: Bringing World persistantenvironment.TheWorld up for play (0) at 2024.01.20-22.56.46
+[0464.76] Log: Bringing up level for play took: 0.087035
+[0464.81] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0464.81] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0464.83] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0464.83] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0465.19] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0465.20] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0465.41] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0465.41] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0466.02] Log: ########### Finished loading level: 1.571765 seconds
+[0466.09] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0466.09] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0469.90] Log: Decal (DecalComponent taskmaster_w_boss_a_11.TheWorld:PersistentLevel.DecalActorMovable_54.DecalComponent_4) was missing a material and DefaultDecalMaterial was used!
+[0471.31] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0471.31] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0471.32] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0475.50] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.61] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.61] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.61] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.61] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.64] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.67] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.68] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.68] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0475.68] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0514.17] Log: LoadMap: AnniversaryTest
+[0514.42] Log: Game class is 'MarvelGameInfo'
+[0514.46] Log: Primary PhysX scene will be in software.
+[0514.46] Log: Creating Primary PhysX Scene.
+[0514.46] Log: Bringing World anniversarytest.TheWorld up for play (0) at 2024.01.20-22.57.36
+[0514.47] Log: Bringing up level for play took: 0.048688
+[0514.48] Log: ########### Finished loading level: 0.308492 seconds
+[0514.53] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0514.53] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0514.54] Log: ActivateLevel anniversarytest_avengerscore 1 1 0
+[0514.54] Log: ActivateLevel anniversarytest_group2 1 1 0
+[0514.55] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0514.55] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0515.18] Log: ActivateLevel anniversarytest_group3 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group4 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group5 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group6 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group7 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group8 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group9 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group10 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group11 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group12 1 1 0
+[0515.19] Log: ActivateLevel anniversarytest_group13 1 1 0
+[0516.34] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_10]
+[0516.34] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_10]
+[0516.34] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_12]
+[0516.60] Warning: SkeletalMeshCinematicActor_17 has unsupported physics mode 8
+[0577.61] Error: [VerifyFail] Verify failed: scheduler
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/LoadingScreenManager.cpp Line:648
+
+[0577.61] Error: [VerifyFail] Verify failed: scheduler
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/LoadingScreenManager.cpp Line:648
+
+[0577.89] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0577.89] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0577.91] Log: LoadMap: PersistantEnvironment
+[0577.95] Log: Game class is 'MarvelGameInfo'
+[0577.95] Log: Primary PhysX scene will be in software.
+[0577.95] Log: Creating Primary PhysX Scene.
+[0577.96] Log: Bringing World persistantenvironment.TheWorld up for play (0) at 2024.01.20-22.58.39
+[0577.96] Log: Bringing up level for play took: 0.007625
+[0577.99] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0577.99] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0578.01] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0578.01] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0578.30] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0578.31] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0578.50] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0578.50] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0579.03] Log: ########### Finished loading level: 1.120270 seconds
+[0579.07] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0579.07] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0583.72] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.72] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.72] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.73] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.73] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.73] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.73] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.73] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.73] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.73] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0583.86] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0583.86] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0583.86] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0599.41] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0599.41] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0599.50] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0599.50] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0602.87] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.88] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0602.99] Warning: Light DominantDirectionalLightMovable JerseyDocks_Cannery_A.TheWorld:PersistentLevel.DominantDirectionalLightMovable_0 in streaming environment level Level JerseyDocks_Cannery_A.TheWorld:PersistentLevel set to use static shadows, forcing this option off.
+[0850.77] Log: Recreate Device Resolution - 1850 x 1041 Window
+[0859.64] Log: LoadMap: AnniversaryTest
+[0859.82] Log: Game class is 'MarvelGameInfo'
+[0859.85] Log: Primary PhysX scene will be in software.
+[0859.85] Log: Creating Primary PhysX Scene.
+[0859.85] Log: Bringing World anniversarytest.TheWorld up for play (0) at 2024.01.20-23.03.21
+[0859.85] Log: Bringing up level for play took: 0.032070
+[0859.86] Log: ########### Finished loading level: 0.227435 seconds
+[0859.90] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0859.90] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0859.90] Log: ActivateLevel anniversarytest_avengerscore 1 1 0
+[0859.90] Log: ActivateLevel anniversarytest_group2 1 1 0
+[0859.91] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0859.91] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0860.67] Log: ActivateLevel anniversarytest_group3 1 1 0
+[0860.67] Log: ActivateLevel anniversarytest_group4 1 1 0
+[0860.67] Log: ActivateLevel anniversarytest_group5 1 1 0
+[0860.67] Log: ActivateLevel anniversarytest_group6 1 1 0
+[0860.67] Log: ActivateLevel anniversarytest_group7 1 1 0
+[0860.67] Log: ActivateLevel anniversarytest_group8 1 1 0
+[0860.67] Log: ActivateLevel anniversarytest_group9 1 1 0
+[0860.67] Log: ActivateLevel anniversarytest_group10 1 1 0
+[0860.68] Log: ActivateLevel anniversarytest_group11 1 1 0
+[0860.68] Log: ActivateLevel anniversarytest_group12 1 1 0
+[0860.68] Log: ActivateLevel anniversarytest_group13 1 1 0
+[0862.35] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_10]
+[0862.35] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_10]
+[0862.35] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshCinematicActor_12]
+[0862.60] Warning: SkeletalMeshCinematicActor_17 has unsupported physics mode 8
+[0868.46] Error: [VerifyFail] Verify failed: scheduler
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/LoadingScreenManager.cpp Line:648
+
+[0868.46] Error: [VerifyFail] Verify failed: scheduler
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/LoadingScreenManager.cpp Line:648
+
+[0868.72] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0868.72] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0868.74] Log: LoadMap: PersistantEnvironment
+[0868.78] Log: Game class is 'MarvelGameInfo'
+[0868.78] Log: Primary PhysX scene will be in software.
+[0868.78] Log: Creating Primary PhysX Scene.
+[0868.78] Log: Bringing World persistantenvironment.TheWorld up for play (0) at 2024.01.20-23.03.30
+[0868.78] Log: Bringing up level for play took: 0.004229
+[0868.82] Warning: Warning, Failed to load 'SwfMovie ?INT?GFxUI.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?GFxUI.IME.MoviePath?'
+[0868.82] Log: GFx attempted to load missing object [?INT?GFxUI.IME.MoviePath?]
+[0868.83] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0868.83] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0869.11] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0869.11] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0869.29] Warning: Warning, Failed to load 'Texture MarvelHUD.xbox_stick_shine.png': Failed to find object 'Texture MarvelHUD.xbox_stick_shine.png'
+[0869.29] Warning: Warning, Failed to load 'Texture MarvelHUD.Tab_Slctd_Arrow.png': Failed to find object 'Texture MarvelHUD.Tab_Slctd_Arrow.png'
+[0869.78] Log: ########### Finished loading level: 1.039573 seconds
+[0869.82] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0869.82] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0873.32] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.32] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.32] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.32] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.32] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.33] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.33] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.33] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.33] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.33] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0873.42] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0873.42] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0873.42] Error: [VerifyFail] Verify failed: usableByProtoRef != g_PrototypeDataRefInvalid
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/UI/CatalogManager.cpp Line:296
+
+[0919.77] Log: Recreate Device Resolution - 1850 x 1041 Window
+[0933.13] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0933.13] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0933.14] Error: [VerifyFail] Verify failed: settings.generateAreas == false
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:344
+
+[0933.15] Error: [VerifyFail] Verify failed: m_entitySpatialPartition == 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Region.cpp Line:846
+
+[0934.25] Error: [VerifyFail] Verify failed: worldInfo->StreamingLevels.Num() == 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\UnrealRegionAdapter.cpp Line:233
+
+[0934.25] Error: [VerifyFail] Verify failed: Detected unreal actor leak after region change!
+        AreaActor persistantenvironment.TheWorld:PersistentLevel.AreaActor_51
+
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\UnrealEngine3\Development\Src\MarvelGame\Src\MarvelGameEngine.cpp Line:2174
+
+[0934.26] Error: [VerifyFail] Verify failed: 0 != m_buffer->GetUsedSize() && 0 == m_buffer->ByteCount()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Core\Core\Serialization\Archive.cpp Line:282
+
+[0934.26] Error: [VerifyFail] Verify failed: static_cast<size_t>(value) < lookup.m_enumValuePrototypeLookup.size()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/GameDatabase/DataDirectory.cpp Line:1652
+
+[0934.26] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.26] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.26] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.27] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.27] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.27] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.27] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.27] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.27] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.27] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.27] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.27] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.27] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.27] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.27] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.27] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.27] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.28] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.28] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.28] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.28] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.28] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.28] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.28] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.28] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.28] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.28] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.28] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.28] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.29] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.29] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.29] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.29] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.29] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.29] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.29] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.29] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.29] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.29] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.29] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.29] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.29] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.29] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.29] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.29] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0934.30] Error: [VerifyFail] Verify failed: it == m_allCells.end()
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/RegionManager.cpp Line:237
+
+[0934.30] Error: [VerifyFail] Verify failed: regionManager->AddCell( cell )
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Region/Area.cpp Line:574
+
+[0934.30] Error: [VerifyFail] Verify failed: clientCell
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\ClientGame/Network/GameConnection.cpp Line:2591
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.55] Error: [VerifyFail] Verify failed: powerProto != 0
+        File:D:\mirrorBuilds_source05\MarvelGame_v52\Source\Game\Game/Entity/Components/PowerCollection.cpp Line:536
+
+[0939.63] Warning: Light DominantDirectionalLightMovable JerseyDocks_Cannery_A.TheWorld:PersistentLevel.DominantDirectionalLightMovable_0 in streaming environment level Level JerseyDocks_Cannery_A.TheWorld:PersistentLevel set to use static shadows, forcing this option off.
