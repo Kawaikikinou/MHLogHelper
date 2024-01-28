@@ -35,31 +35,6 @@ namespace DrawMapFromLog
             DrawMapFromFile(e.Graphics);
         }
 
-        private void DrawMapFromFile(Graphics g)
-        {
-            var file = _filesToDraw[_fileIndex];
-
-            List<AddingCell> logs = new();
-            LogGroup logGroup = GenerateLogGroupFromFilename(Path.GetFileNameWithoutExtension(file));
-
-            if (logGroup == null)
-                return;
-
-            foreach (var line in File.ReadAllLines(file))
-            {
-                if (line.ToLower().Contains("filler"))
-                    continue;
-
-                AddingCell addCellLog = new AddingCell();
-
-                if (addCellLog.TryMatch(line))
-                    logs.Add(addCellLog);
-            }
-
-            this.Text = Path.GetFileNameWithoutExtension(file);
-            DrawMap(g, logs);
-        }
-
         LogGroup GenerateLogGroupFromFilename(string finename)
         {
             try
@@ -72,6 +47,67 @@ namespace DrawMapFromLog
                 return null;
             }
         }
+
+        private void DrawMapFromFile(Graphics g)
+        {
+            var file = _filesToDraw[_fileIndex];
+            _fillerToDraw = new();
+            _cellsToDraw = new();
+
+            LogGroup logGroup = GenerateLogGroupFromFilename(Path.GetFileNameWithoutExtension(file));
+
+            if (logGroup == null)
+                return;
+
+            foreach (var line in File.ReadAllLines(file))
+            {
+                AddingCell addCellLog = new AddingCell();
+
+                if (addCellLog.TryMatch(line))
+                {
+                    if (line.ToLower().Contains("filler"))
+                        _fillerToDraw.Add(addCellLog);
+                    else
+                        _cellsToDraw.Add(addCellLog);
+                }
+            }
+
+            this.Text = Path.GetFileNameWithoutExtension(file);
+            DrawMap(g);
+        }
+
+        private void DrawMap(Graphics g)
+        {
+            _toolTip = new ToolTip();
+            _allLabelCells = new();
+
+            _cellSize = _cellsToDraw.Where(k => k.CellPos.X != 0).Min(k => Math.Abs(k.CellPos.X));
+
+            _areaBound = new Vector4(
+                MathF.Min(_cellsToDraw.Min(k => k.CellPos.X), _fillerToDraw.Min(k => k.CellPos.X)),
+                MathF.Min(_cellsToDraw.Min(k => k.CellPos.Y), _fillerToDraw.Min(k => k.CellPos.Y)),
+                MathF.Max(_cellsToDraw.Max(k => k.CellPos.X), _fillerToDraw.Max(k => k.CellPos.X)),
+                MathF.Max(_cellsToDraw.Max(k => k.CellPos.Y), _fillerToDraw.Max(k => k.CellPos.Y)));
+
+            _scaleToForm = _dezoom * MathF.Max((_areaWidth + _cellSize) / ClientSize.Height, _areaHeight / ClientSize.Width);
+            _borderToCenterMap = new Vector2((ClientSize.Width - _areaHeight / _scaleToForm) / 2, ((ClientSize.Height - _cellFormSize) - (_areaWidth / _scaleToForm)) / 2);
+            _offset = new Vector2(-MathF.Min(0, _areaBound.X), -MathF.Min(0, _areaBound.Y));
+
+            DrawXYAxis(g);
+            
+            if (_fillerCellsEnabled)
+                DrawFillers(g);
+
+            if (_regularCellsEnabled)
+            {
+                foreach (var cellToDraw in _cellsToDraw)
+                    DrawCell(new Vector2(cellToDraw.CellPos.X, cellToDraw.CellPos.Y), cellToDraw);
+            }
+        }
+
+        private List<AddingCell> _fillerToDraw;
+        private List<AddingCell> _cellsToDraw;
+        private List<Label> _allLabelCells;
 
         private Vector4 _areaBound;
         private float _cellSize;
@@ -86,24 +122,13 @@ namespace DrawMapFromLog
         private float _dezoom = 1.2f;
         private ToolTip _toolTip;
 
-        private void DrawMap(Graphics g, List<AddingCell> logs)
+        private void DrawFillers(Graphics g)
         {
-            _toolTip = new ToolTip();
-            _cellSize = logs.Where(k => k.CellPos.X != 0).Min(k => Math.Abs(k.CellPos.X));
-
-            _areaBound = new Vector4(
-                logs.Min(k => k.CellPos.X),
-                logs.Min(k => k.CellPos.Y),
-                logs.Max(k => k.CellPos.X),
-                logs.Max(k => k.CellPos.Y));
-
-            _scaleToForm = _dezoom * MathF.Max((_areaWidth + _cellSize) / ClientSize.Height, _areaHeight / ClientSize.Width);
-            _borderToCenterMap = new Vector2((ClientSize.Width - _areaHeight / _scaleToForm) / 2, ((ClientSize.Height - _cellFormSize) - (_areaWidth / _scaleToForm)) / 2);
-            _offset = new Vector2(-MathF.Min(0, _areaBound.X), -MathF.Min(0, _areaBound.Y));
-
-            DrawXYAxis(g);
-            foreach (var log in logs)
-                DrawCell(new Vector2(log.CellPos.X, log.CellPos.Y), log);
+            foreach (var log in _fillerToDraw)
+            {
+                Vector2 pos = AdaptCoordinatesToForm(new Vector2(log.CellPos.X, log.CellPos.Y));
+                AddLabelWithToolTip(pos.X, pos.Y, log, true);
+            }
         }
 
         private Vector2 AdaptCoordinatesToForm(Vector2 pos)
@@ -115,7 +140,7 @@ namespace DrawMapFromLog
             AddLabelWithToolTip(pos.X, pos.Y, log);
         }
 
-        private void AddLabelWithToolTip(float x, float y, AddingCell log)
+        private void AddLabelWithToolTip(float x, float y, AddingCell log, bool isFiller = false)
         {
             if (_cellFormSize <= 0)
                 return;
@@ -123,12 +148,15 @@ namespace DrawMapFromLog
             Label label = new Label();
             label.TextAlign = ContentAlignment.MiddleCenter;
             label.ForeColor = Color.White;
-            label.BackColor = Color.Black;
+            label.BackColor = isFiller ? Color.LightGray : Color.Black;
             label.Font = new Font("Arial", _cellFormSize / 3);
             label.Size = new((int)_cellFormSize, (int)_cellFormSize);
             label.Location = new((int)x, (int)y);
             label.Text = log.CellId.ToString();
             Controls.Add(label);
+            if (!isFiller)
+                label.BringToFront();
+
             _toolTip.SetToolTip(label, log.CellName + " " + log.CellPos);
         }
 

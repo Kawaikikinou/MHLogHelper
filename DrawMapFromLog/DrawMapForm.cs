@@ -4,6 +4,11 @@ namespace DrawMapFromLog
     {
         private string[] _filesToDraw;
         private int _fileIndex;
+        private bool _regularCellsEnabled = true;
+        private bool _fillerCellsEnabled = true;
+        private ToolStripMenuItem _regularCellsMenuItem;
+        private ToolStripMenuItem _fillerCellsMenuItem;
+
         public DrawMapForm()
         {
             InitializeMapList();
@@ -14,9 +19,7 @@ namespace DrawMapFromLog
 
         private void MainForm_Resize(object sender, EventArgs e)
         {
-            Controls.Clear();
-            InitializeFileMenu();
-            Invalidate();
+            Refresh();
         }
 
         private void InitializeMapList()
@@ -32,21 +35,37 @@ namespace DrawMapFromLog
             ToolStripMenuItem nextMapMenuItem = new("Next map");
             ToolStripMenuItem saveScreenshotMenuItem = new("Save screenshot");
 
+            ToolStripMenuItem filtersMenu = new ToolStripMenuItem("Filters");
+            _regularCellsMenuItem = new ToolStripMenuItem("Regular cells");
+            _fillerCellsMenuItem = new ToolStripMenuItem("Filler cells");
+
             previousMapMenuItem.ShortcutKeys = Keys.Control | Keys.Left;
             nextMapMenuItem.ShortcutKeys = Keys.Control | Keys.Right;
             saveScreenshotMenuItem.ShortcutKeys = Keys.Control | Keys.S;
+
+            _regularCellsMenuItem.ShortcutKeys |= Keys.Control | Keys.R;
+            _fillerCellsMenuItem.ShortcutKeys |= Keys.Control | Keys.F;
 
             previousMapMenuItem.Click += PreviousMapMenuItem_Click;
             nextMapMenuItem.Click += NextMapMenuItem_Click;
             saveScreenshotMenuItem.Click += SaveScreenshotMenuItem_Click;
 
+            _regularCellsMenuItem.Checked = _regularCellsEnabled;
+            _regularCellsMenuItem.Click += RegularCellsMenuItem_Click;
+
+            _fillerCellsMenuItem.Checked = _fillerCellsEnabled;
+            _fillerCellsMenuItem.Click += FillerCellsMenuItem_Click;
 
             fileMenu.DropDownItems.Add(previousMapMenuItem);
             fileMenu.DropDownItems.Add(nextMapMenuItem);
             fileMenu.DropDownItems.Add(saveScreenshotMenuItem);
 
+            filtersMenu.DropDownItems.Add(_regularCellsMenuItem);
+            filtersMenu.DropDownItems.Add(_fillerCellsMenuItem);
+
             MenuStrip menuStrip = new MenuStrip();
             menuStrip.Items.Add(fileMenu);
+            menuStrip.Items.Add(filtersMenu);
 
             MainMenuStrip = menuStrip;
             Controls.Add(menuStrip);
@@ -64,14 +83,26 @@ namespace DrawMapFromLog
             if (i >= _filesToDraw.Length)
                 _fileIndex = 0;
 
-            Controls.Clear();
-            InitializeFileMenu();
-            Invalidate();
+            Refresh();
         }
 
         private void SaveScreenshotMenuItem_Click(object sender, EventArgs e)
         {
             CaptureAndSaveScreenshot();
+        }
+
+        private void RegularCellsMenuItem_Click(object sender, EventArgs e)
+        {
+            _regularCellsEnabled = !_regularCellsEnabled;
+            _regularCellsMenuItem.Checked = _regularCellsEnabled;
+            Refresh();
+        }
+
+        private void FillerCellsMenuItem_Click(object sender, EventArgs e)
+        {
+            _fillerCellsEnabled = !_fillerCellsEnabled;
+            _fillerCellsMenuItem.Checked = _fillerCellsEnabled;
+            Refresh();
         }
 
         private void CaptureAndSaveScreenshot()
@@ -90,6 +121,13 @@ namespace DrawMapFromLog
                 bitmap.Save(filePath + ".png");
                 MessageBox.Show($"Screenshot of {filePath} saved in bin folder");
             }
+        }
+
+        private void Refresh()
+        {
+            Controls.Clear();
+            InitializeFileMenu();
+            Invalidate();
         }
     }
 }
