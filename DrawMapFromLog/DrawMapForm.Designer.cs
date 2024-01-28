@@ -148,7 +148,7 @@ namespace DrawMapFromLog
             Label label = new Label();
             label.TextAlign = ContentAlignment.MiddleCenter;
             label.ForeColor = Color.White;
-            label.BackColor = isFiller ? Color.LightGray : Color.Black;
+            label.BackColor = isFiller ? Color.LightGray : GetColorFromName(log.CellName);
             label.Font = new Font("Arial", _cellFormSize / 3);
             label.Size = new((int)_cellFormSize, (int)_cellFormSize);
             label.Location = new((int)x, (int)y);
@@ -165,6 +165,25 @@ namespace DrawMapFromLog
             Vector2 origin = new Vector2((ClientSize.Width + _cellFormSize / 2) - (_offset.X / _scaleToForm + _borderToCenterMap.X), (ClientSize.Height - _cellFormSize / 2) - (_offset.Y / _scaleToForm + _borderToCenterMap.Y));
             g.DrawLine(Pens.Green, 0, origin.Y, ClientSize.Width, origin.Y);
             g.DrawLine(Pens.Red, origin.X, 0, origin.X, ClientSize.Height);
+        }
+
+        private Color GetColorFromName(string cellName)
+        {
+            int hash = GetNonRandomizedHashCode(cellName.Split('/',StringSplitOptions.RemoveEmptyEntries).Last());
+            int r = (hash & 0xFF) % 200; // Limit colors too light
+            int g = ((hash >> 8) & 0xFF) % 200;
+            int b = ((hash >> 16) & 0xFF) % 200;
+
+            return Color.FromArgb(r + 10, g + 10, b + 10); // Adjust colors too light
+        }
+
+        private int GetNonRandomizedHashCode(string cellName)
+        {
+            int hashCode = 10;  // arbitrary value
+            foreach (char c in cellName)
+                hashCode = hashCode * 31 + c;
+
+            return hashCode;
         }
     }
 }
