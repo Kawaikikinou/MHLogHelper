@@ -162,7 +162,7 @@ namespace DrawMapFromLog
 
         private void DrawXYAxis(Graphics g)
         {
-            Vector2 origin = new Vector2((ClientSize.Width + _cellFormSize) - (_offset.X / _scaleToForm + _borderToCenterMap.X), ClientSize.Height - (_offset.Y / _scaleToForm + _borderToCenterMap.Y));
+            Vector2 origin = new Vector2((ClientSize.Width + _cellFormSize / 2) - (_offset.X / _scaleToForm + _borderToCenterMap.X), (ClientSize.Height - _cellFormSize / 2) - (_offset.Y / _scaleToForm + _borderToCenterMap.Y));
             g.DrawLine(Pens.Green, 0, origin.Y, ClientSize.Width, origin.Y);
             g.DrawLine(Pens.Red, origin.X, 0, origin.X, ClientSize.Height);
         }
