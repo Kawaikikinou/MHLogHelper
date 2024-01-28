@@ -98,10 +98,13 @@ namespace DrawMapFromLog
             if (_fillerCellsEnabled)
                 DrawFillers(g);
 
-            if (_regularCellsEnabled)
+            foreach (var cellToDraw in _cellsToDraw)
             {
-                foreach (var cellToDraw in _cellsToDraw)
-                    DrawCell(new Vector2(cellToDraw.CellPos.X, cellToDraw.CellPos.Y), cellToDraw);
+                if (_regularCellsEnabled)
+                    DrawCell(g, new Vector2(cellToDraw.CellPos.X, cellToDraw.CellPos.Y), cellToDraw);
+
+                if (_pathsEnabled)
+                    DrawPaths(g, new Vector2(cellToDraw.CellPos.X, cellToDraw.CellPos.Y), cellToDraw);
             }
         }
 
@@ -127,20 +130,20 @@ namespace DrawMapFromLog
             foreach (var log in _fillerToDraw)
             {
                 Vector2 pos = AdaptCoordinatesToForm(new Vector2(log.CellPos.X, log.CellPos.Y));
-                AddLabelWithToolTip(pos.X, pos.Y, log, true);
+                AddLabelWithToolTip(g, pos.X, pos.Y, log, true);
             }
         }
 
         private Vector2 AdaptCoordinatesToForm(Vector2 pos)
             => new Vector2(ClientSize.Width - ((pos.X + _offset.X) / _scaleToForm + _borderToCenterMap.X), (ClientSize.Height - _cellFormSize) - ((_offset.Y + pos.Y) / _scaleToForm + _borderToCenterMap.Y));
 
-        private void DrawCell(Vector2 pos, AddingCell log)
+        private void DrawCell(Graphics g, Vector2 pos, AddingCell log)
         {
             pos = AdaptCoordinatesToForm(pos);
-            AddLabelWithToolTip(pos.X, pos.Y, log);
+            AddLabelWithToolTip(g, pos.X, pos.Y, log);
         }
 
-        private void AddLabelWithToolTip(float x, float y, AddingCell log, bool isFiller = false)
+        private void AddLabelWithToolTip(Graphics g, float x, float y, AddingCell log, bool isFiller = false)
         {
             if (_cellFormSize <= 0)
                 return;
@@ -154,10 +157,52 @@ namespace DrawMapFromLog
             label.Location = new((int)x, (int)y);
             label.Text = log.CellId.ToString();
             Controls.Add(label);
-            if (!isFiller)
+            if (isFiller)
+                label.SendToBack();
+            else
                 label.BringToFront();
 
             _toolTip.SetToolTip(label, log.CellName + " " + log.CellPos);
+        }
+
+        private void DrawPaths(Graphics g, Vector2 pos, AddingCell log)
+        {
+            pos = AdaptCoordinatesToForm(pos);
+            if (log.CellName.ToLower().Contains("entry"))
+                DrawSquare(g, pos);
+            else
+                Drawline(g, pos, log);
+        }
+
+        private void Drawline(Graphics g, Vector2 pos, AddingCell log)
+        {
+            string name = log.CellName.Split("/", StringSplitOptions.RemoveEmptyEntries).Last();
+            string[] tokens = name.Split("_");
+            string dir = tokens[1].Contains("N") || tokens[1].Contains("S") || tokens[1].Contains("W") || tokens[1].Contains("E") ? tokens[1] : tokens[2];
+
+            float subdivision = _cellFormSize / 5;
+            float segmentLength = 3 * subdivision;
+            float originSegment = _cellFormSize - segmentLength;
+
+            using (Brush brush = new SolidBrush(Color.Black))
+            {
+                if (dir.Contains("N"))
+                    g.FillRectangle(brush, pos.X, pos.Y + originSegment, segmentLength, subdivision);
+                if (dir.Contains("W"))
+                    g.FillRectangle(brush, pos.X + originSegment, pos.Y + originSegment, subdivision, segmentLength);
+                if (dir.Contains("S"))
+                    g.FillRectangle(brush, pos.X + originSegment, pos.Y + originSegment, segmentLength, subdivision);
+                if (dir.Contains("E"))
+                    g.FillRectangle(brush, pos.X + originSegment, pos.Y, subdivision, segmentLength);
+            }
+        }
+
+        private void DrawSquare(Graphics g, Vector2 pos)
+        {
+            using (Brush brush = new SolidBrush(Color.Black))
+            {
+                g.FillRectangle(brush, pos.X + _cellFormSize / 5, pos.Y + _cellFormSize / 5, 3 * _cellFormSize / 5, 3 * _cellFormSize / 5);
+            }
         }
 
         private void DrawXYAxis(Graphics g)
@@ -169,12 +214,12 @@ namespace DrawMapFromLog
 
         private Color GetColorFromName(string cellName)
         {
-            int hash = GetNonRandomizedHashCode(cellName.Split('/',StringSplitOptions.RemoveEmptyEntries).Last());
+            int hash = GetNonRandomizedHashCode(cellName.Split('/', StringSplitOptions.RemoveEmptyEntries).Last());
             int r = (hash & 0xFF) % 200; // Limit colors too light
             int g = ((hash >> 8) & 0xFF) % 200;
             int b = ((hash >> 16) & 0xFF) % 200;
 
-            return Color.FromArgb(r + 10, g + 10, b + 10); // Adjust colors too light
+            return Color.FromArgb(r + 10, g + 10, b + 10); // Adjust colors too dark
         }
 
         private int GetNonRandomizedHashCode(string cellName)

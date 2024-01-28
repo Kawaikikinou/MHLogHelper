@@ -6,8 +6,10 @@ namespace DrawMapFromLog
         private int _fileIndex;
         private bool _regularCellsEnabled = true;
         private bool _fillerCellsEnabled = true;
+        private bool _pathsEnabled = true;
         private ToolStripMenuItem _regularCellsMenuItem;
         private ToolStripMenuItem _fillerCellsMenuItem;
+        private ToolStripMenuItem _pathsMenuItem;
 
         public DrawMapForm()
         {
@@ -38,6 +40,7 @@ namespace DrawMapFromLog
             ToolStripMenuItem filtersMenu = new ToolStripMenuItem("Filters");
             _regularCellsMenuItem = new ToolStripMenuItem("Regular cells");
             _fillerCellsMenuItem = new ToolStripMenuItem("Filler cells");
+            _pathsMenuItem = new ToolStripMenuItem("Paths");
 
             previousMapMenuItem.ShortcutKeys = Keys.Control | Keys.Left;
             nextMapMenuItem.ShortcutKeys = Keys.Control | Keys.Right;
@@ -45,6 +48,7 @@ namespace DrawMapFromLog
 
             _regularCellsMenuItem.ShortcutKeys |= Keys.Control | Keys.R;
             _fillerCellsMenuItem.ShortcutKeys |= Keys.Control | Keys.F;
+            _pathsMenuItem.ShortcutKeys |= Keys.Control | Keys.P;
 
             previousMapMenuItem.Click += PreviousMapMenuItem_Click;
             nextMapMenuItem.Click += NextMapMenuItem_Click;
@@ -56,12 +60,16 @@ namespace DrawMapFromLog
             _fillerCellsMenuItem.Checked = _fillerCellsEnabled;
             _fillerCellsMenuItem.Click += FillerCellsMenuItem_Click;
 
+            _pathsMenuItem.Checked = _pathsEnabled;
+            _pathsMenuItem.Click += PathsMenuItem_Click;
+
             fileMenu.DropDownItems.Add(previousMapMenuItem);
             fileMenu.DropDownItems.Add(nextMapMenuItem);
             fileMenu.DropDownItems.Add(saveScreenshotMenuItem);
 
             filtersMenu.DropDownItems.Add(_regularCellsMenuItem);
             filtersMenu.DropDownItems.Add(_fillerCellsMenuItem);
+            filtersMenu.DropDownItems.Add(_pathsMenuItem);
 
             MenuStrip menuStrip = new MenuStrip();
             menuStrip.Items.Add(fileMenu);
@@ -102,6 +110,13 @@ namespace DrawMapFromLog
         {
             _fillerCellsEnabled = !_fillerCellsEnabled;
             _fillerCellsMenuItem.Checked = _fillerCellsEnabled;
+            Refresh();
+        }
+
+        private void PathsMenuItem_Click(object sender, EventArgs e)
+        {
+            _pathsEnabled = !_pathsEnabled;
+            _pathsMenuItem.Checked = _pathsEnabled;
             Refresh();
         }
 
