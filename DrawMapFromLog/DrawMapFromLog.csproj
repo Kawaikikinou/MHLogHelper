@@ -8,4 +8,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="LogsToDraw\CH0501MutantTownRegion-C-1488502313.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegionGenerationLogAnalyser\RegionGenerationLogAnalyser.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LogsToDraw\" />
+  </ItemGroup>
+
 </Project>
