@@ -1,4 +1,4 @@
-This solution contains several tools for logs :
+This solution contains several tools to work with Marvel Heroes logs :
 
 - RegionGenerationLogAnalyser
     Put the log file with generation map information from the server with the one from the client in the folder "LogsToCompare".
