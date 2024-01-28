@@ -1,8 +1,6 @@
 ﻿using GenerationRegionLogsAnalyzer.Enums;
 using GenerationRegionLogsAnalyzer.LogModels;
-using System.Drawing;
 using System.Numerics;
-using System.Security.Policy;
 
 namespace DrawMapFromLog
 {
@@ -21,10 +19,6 @@ namespace DrawMapFromLog
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -43,31 +37,27 @@ namespace DrawMapFromLog
 
         private void DrawMapFromFile(Graphics g)
         {
-            string logsFolder = Path.Combine(Directory.GetCurrentDirectory(), "../../../LogsToDraw");
+            var file = _filesToDraw[_fileIndex];
 
-            foreach (var file in Directory.GetFiles(logsFolder))
+            List<AddingCell> logs = new();
+            LogGroup logGroup = GenerateLogGroupFromFilename(Path.GetFileNameWithoutExtension(file));
+
+            if (logGroup == null)
+                return;
+
+            foreach (var line in File.ReadAllLines(file))
             {
-                List<AddingCell> logs = new();
-                LogGroup logGroup = GenerateLogGroupFromFilename(Path.GetFileNameWithoutExtension(file));
-
-                if (logGroup == null)
+                if (line.ToLower().Contains("filler"))
                     continue;
 
-                foreach (var line in File.ReadAllLines(file))
-                {
-                    if (line.ToLower().Contains("filler"))
-                        continue;
+                AddingCell addCellLog = new AddingCell();
 
-                    AddingCell addCellLog = new AddingCell();
-
-                    if (addCellLog.TryMatch(line))
-                        logs.Add(addCellLog);
-
-                }
-
-                this.Text = Path.GetFileName(file);
-                DrawMap(g, logs);
+                if (addCellLog.TryMatch(line))
+                    logs.Add(addCellLog);
             }
+
+            this.Text = Path.GetFileNameWithoutExtension(file);
+            DrawMap(g, logs);
         }
 
         LogGroup GenerateLogGroupFromFilename(string finename)
@@ -108,26 +98,28 @@ namespace DrawMapFromLog
                 logs.Max(k => k.CellPos.Y));
 
             _scaleToForm = _dezoom * MathF.Max((_areaWidth + _cellSize) / ClientSize.Height, _areaHeight / ClientSize.Width);
-            _borderToCenterMap = new Vector2((ClientSize.Width - _areaHeight/ _scaleToForm) / 2, ((ClientSize.Height - _cellFormSize) - (_areaWidth/ _scaleToForm)) / 2);
+            _borderToCenterMap = new Vector2((ClientSize.Width - _areaHeight / _scaleToForm) / 2, ((ClientSize.Height - _cellFormSize) - (_areaWidth / _scaleToForm)) / 2);
             _offset = new Vector2(-MathF.Min(0, _areaBound.X), -MathF.Min(0, _areaBound.Y));
-
 
             DrawXYAxis(g);
             foreach (var log in logs)
-                DrawCell(g, new Vector2(log.CellPos.X, log.CellPos.Y), log);
+                DrawCell(new Vector2(log.CellPos.X, log.CellPos.Y), log);
         }
 
         private Vector2 AdaptCoordinatesToForm(Vector2 pos)
-            => new Vector2((_offset.Y + pos.Y) / _scaleToForm + _borderToCenterMap.X, (ClientSize.Height - _cellFormSize) - ((pos.X+ _offset.X) / _scaleToForm + _borderToCenterMap.Y));
+            => new Vector2((_offset.Y + pos.Y) / _scaleToForm + _borderToCenterMap.X, (ClientSize.Height - _cellFormSize) - ((pos.X + _offset.X) / _scaleToForm + _borderToCenterMap.Y));
 
-        private void DrawCell(Graphics g, Vector2 pos, AddingCell log)
+        private void DrawCell(Vector2 pos, AddingCell log)
         {
             pos = AdaptCoordinatesToForm(pos);
-            AddLabelWithToolTip(g, pos.X, pos.Y, log);
+            AddLabelWithToolTip(pos.X, pos.Y, log);
         }
 
-        private void AddLabelWithToolTip(Graphics g, float x, float y, AddingCell log)
+        private void AddLabelWithToolTip(float x, float y, AddingCell log)
         {
+            if (_cellFormSize <= 0)
+                return;
+
             Label label = new Label();
             label.TextAlign = ContentAlignment.MiddleCenter;
             label.ForeColor = Color.White;
