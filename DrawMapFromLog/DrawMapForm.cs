@@ -40,7 +40,7 @@ namespace DrawMapFromLog
             ToolStripMenuItem filtersMenu = new ToolStripMenuItem("Filters");
             _regularCellsMenuItem = new ToolStripMenuItem("Regular cells");
             _fillerCellsMenuItem = new ToolStripMenuItem("Filler cells");
-            _pathsMenuItem = new ToolStripMenuItem("Paths");
+            _pathsMenuItem = new ToolStripMenuItem("Paths and entries");
 
             previousMapMenuItem.ShortcutKeys = Keys.Control | Keys.Left;
             nextMapMenuItem.ShortcutKeys = Keys.Control | Keys.Right;

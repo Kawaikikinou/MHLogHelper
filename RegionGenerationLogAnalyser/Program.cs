@@ -12,7 +12,7 @@ List<LogGroup> logGroups = new();
 string resultFile = Path.Combine(Directory.GetCurrentDirectory(), "AnalyseResult.txt");
 using (File.Create(resultFile)) { }
 
-string logsFolder = Path.Combine(Directory.GetCurrentDirectory(), "../../../Logs");
+string logsFolder = Path.Combine(Directory.GetCurrentDirectory(), "../../../LogsToCompare");
 
 foreach (var file in Directory.GetFiles(logsFolder))
 {

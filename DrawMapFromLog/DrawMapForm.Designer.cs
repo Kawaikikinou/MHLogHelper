@@ -83,11 +83,18 @@ namespace DrawMapFromLog
 
             _cellSize = _cellsToDraw.Where(k => k.CellPos.X != 0).Min(k => Math.Abs(k.CellPos.X));
 
-            _areaBound = new Vector4(
-                MathF.Min(_cellsToDraw.Min(k => k.CellPos.X), _fillerToDraw.Min(k => k.CellPos.X)),
-                MathF.Min(_cellsToDraw.Min(k => k.CellPos.Y), _fillerToDraw.Min(k => k.CellPos.Y)),
-                MathF.Max(_cellsToDraw.Max(k => k.CellPos.X), _fillerToDraw.Max(k => k.CellPos.X)),
-                MathF.Max(_cellsToDraw.Max(k => k.CellPos.Y), _fillerToDraw.Max(k => k.CellPos.Y)));
+            if (_fillerToDraw.Any())
+                _areaBound = new Vector4(
+                    MathF.Min(_cellsToDraw.Min(k => k.CellPos.X), _fillerToDraw.Min(k => k.CellPos.X)),
+                    MathF.Min(_cellsToDraw.Min(k => k.CellPos.Y), _fillerToDraw.Min(k => k.CellPos.Y)),
+                    MathF.Max(_cellsToDraw.Max(k => k.CellPos.X), _fillerToDraw.Max(k => k.CellPos.X)),
+                    MathF.Max(_cellsToDraw.Max(k => k.CellPos.Y), _fillerToDraw.Max(k => k.CellPos.Y)));
+            else
+                _areaBound = new Vector4(
+                    _cellsToDraw.Min(k => k.CellPos.X),
+                    _cellsToDraw.Min(k => k.CellPos.Y),
+                    _cellsToDraw.Max(k => k.CellPos.X),
+                    _cellsToDraw.Max(k => k.CellPos.Y));
 
             _scaleToForm = _dezoom * MathF.Max((_areaWidth + _cellSize) / ClientSize.Width, _areaHeight / ClientSize.Height);
             _borderToCenterMap = new Vector2((ClientSize.Width - _areaWidth / _scaleToForm) / 2, ((ClientSize.Height - _cellFormSize) - (_areaHeight / _scaleToForm)) / 2);
