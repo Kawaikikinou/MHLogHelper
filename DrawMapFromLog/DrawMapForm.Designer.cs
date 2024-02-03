@@ -185,7 +185,10 @@ namespace DrawMapFromLog
         {
             string name = log.CellName.Split("/", StringSplitOptions.RemoveEmptyEntries).Last();
             string[] tokens = name.Split("_");
-            string dir = tokens[1].Contains("N") || tokens[1].Contains("S") || tokens[1].Contains("W") || tokens[1].Contains("E") ? tokens[1] : tokens[2];
+            string dir = "";
+
+            if (tokens.Length > 2)
+                dir = tokens[1].Contains("N") || tokens[1].Contains("S") || tokens[1].Contains("W") || tokens[1].Contains("E") ? tokens[1] : tokens[2];
 
             float subdivision = _cellFormSize / 5;
             float segmentLength = 3 * subdivision;
